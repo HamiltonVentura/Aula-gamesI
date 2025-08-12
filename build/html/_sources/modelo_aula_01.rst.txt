@@ -1,0 +1,24 @@
+..title: Plano de aulas
+
+PLANO DE AULA PROGRAMAÇÃO COM GAMES 
+====================================
+
+**Tempo de Aula:** 
+
+.. rubric:: Recursos Didáticos
+
+
+.. rubric:: Metodologia
+
+
+.. rubric:: Conteúdo Programático
+
+
+.. rubric:: Descrição
+
+
+.. rubric:: Avaliação
+
+
+.. rubric:: Bibliografia
+

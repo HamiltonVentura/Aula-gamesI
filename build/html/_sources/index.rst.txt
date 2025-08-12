@@ -1,0 +1,76 @@
+.. Introdução a lógica documentation master file, created by
+   sphinx-quickstart on Thu Aug  7 23:52:47 2025.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Introdução à Lógica de Programação
+==================================
+
+.. rubric:: Está preparado?
+
+Bem-vindo(a) à *introdução à lógica de programação*. Aqui reúno um compêndio de exercícios e 
+explicações com ferramentas conhecidas que podem facilitar a criança, adolescente ou adulto na 
+introdução ao mundo da programação. Possuímos atualmente a versão web e PDF, caso tenha interesse.
+
+Como está dividido esse documento?
+
+- Navegação ao Sistema Operacional
+- Comandos CLI no Sistema Operacional
+- REGEX
+
+.. rubric:: Scratch
+
+Linguagem de programação criada em 2007, focada em programação de forma visual.
+
+.. rubric:: Engine Construct
+
+Engine para desenvolvimento de jogos, focada em desenvolvimento de jogos de forma visual.
+
+.. rubric:: Carga horária
+
+As aulas de Programação com jogos totalizam 20 horas, sendo uma hora e meia a cada
+encontro, duas vezes durante a semana, totalizando 13 aulas em 2 meses.
+
+.. rubric:: Objetivos Gerais
+
+O curso de programação com games busca desenvolver nos alunos o pensamento
+computacional e o raciocínio lógico, de maneira a resolver problemas mais complexos de
+forma lúdica.
+
+.. rubric:: Objetivos Específicos
+
+Operações básicas no Sistema Operacional:  
+Aprender a utilizar o básico do sistema operacional, ajudando a introduzir os alunos à
+informática básica, promovendo um melhor aprendizado nas ferramentas propostas
+no curso (que exigem conhecimento básico).
+
+Aprender a desenvolver animações e jogos no Scratch:  
+Os princípios essenciais a serem aprendidos: condições, laços, variáveis,
+acumuladores, eventos, transmissão de informação, edição de imagens dos
+personagens. Utilização livre e espontânea da ferramenta.
+
+Aprender a desenvolver jogos na ferramenta Construct 3:  
+Como princípios essenciais a serem desenvolvidos pelos alunos está, em primeiro
+lugar, entender o funcionamento básico da ferramenta: navegação em tela, salvar e
+abrir arquivos, criação de pastas no Windows, salvar imagens do Google no
+computador pessoal. As ações poderão ser desenvolvidas utilizando como base os
+princípios do pensamento lógico. No decorrer das aulas o aluno aprenderá a criar
+personagens, cenários, mudança de cenário, disparos de projéteis, criação de
+barras de vida e contadores de moedas. Durante as aulas os alunos aprenderão a
+ativar animações em determinadas situações, trabalhando com eventos.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   modelo_aula_02
+   modelo_aula_03
+   modelo_aula_04
+   modelo_aula_05
+   modelo_aula_06
+   modelo_aula_07
+   modelo_aula_08
+   modelo_aula_09
+   modelo_aula_10
+   modelo_aula_11
+   modelo_aula_12
