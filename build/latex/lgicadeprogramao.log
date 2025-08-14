@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.8)  12 AUG 2025 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.8)  14 AUG 2025 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -912,26 +912,26 @@ Cap\'{\i }tulo 10.
 Cap\'{\i }tulo 11.
 [23] (./lgicadeprogramao.ind) [24] (./lgicadeprogramao.aux)
 Package rerunfilecheck Info: File `lgicadeprogramao.out' has not changed.
-(rerunfilecheck)             Checksum: F6BBE56E1F4F3E52970393B4F1B9493E;3037.
+(rerunfilecheck)             Checksum: 94F4C1244775E03A17B22F5BC25E5572;3010.
  ) 
 Here is how much of TeX's memory you used:
- 19956 strings out of 476091
- 360207 string characters out of 5794082
- 1859330 words of memory out of 5000000
- 39903 multiletter control sequences out of 15000+600000
+ 19959 strings out of 476091
+ 360237 string characters out of 5794082
+ 1861330 words of memory out of 5000000
+ 39905 multiletter control sequences out of 15000+600000
  559348 words of font info for 68 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 72i,12n,83p,1205b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,83p,1205b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/
 enc/dvips/tex-gyre/q-ec.enc}</usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.
 pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvbi.pfb></usr/share/texmf/f
 onts/type1/public/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/public/tex-gy
 re/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/
 texmf/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on lgicadeprogramao.pdf (28 pages, 188780 bytes).
+Output written on lgicadeprogramao.pdf (28 pages, 191087 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
- 237 compressed objects within 3 object streams
- 41 named destinations out of 1000 (max. 500000)
- 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 249 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 

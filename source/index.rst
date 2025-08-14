@@ -1,14 +1,10 @@
-.. Introdução a lógica documentation master file, created by
-   sphinx-quickstart on Thu Aug  7 23:52:47 2025.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 Introdução à Lógica de Programação
 ==================================
 
-.. rubric:: Está preparado?
+.. rubric:: Introdução
 
-Bem-vindo(a) à *introdução à lógica de programação*. Aqui reúno um compêndio de exercícios e 
+O Curso *introdução à lógica de programação*, reúne um compêndio de exercícios e 
 explicações com ferramentas conhecidas que podem facilitar a criança, adolescente ou adulto na 
 introdução ao mundo da programação. Possuímos atualmente a versão web e PDF, caso tenha interesse.
 
@@ -18,11 +14,7 @@ Como está dividido esse documento?
 - Comandos CLI no Sistema Operacional
 - REGEX
 
-.. rubric:: Scratch
-
-Linguagem de programação criada em 2007, focada em programação de forma visual.
-
-.. rubric:: Engine Construct
+.. rubric:: Engine Defold
 
 Engine para desenvolvimento de jogos, focada em desenvolvimento de jogos de forma visual.
 
@@ -44,12 +36,12 @@ Aprender a utilizar o básico do sistema operacional, ajudando a introduzir os a
 informática básica, promovendo um melhor aprendizado nas ferramentas propostas
 no curso (que exigem conhecimento básico).
 
-Aprender a desenvolver animações e jogos no Scratch:  
+Aprender a desenvolver soluções na linguagem lua:  
 Os princípios essenciais a serem aprendidos: condições, laços, variáveis,
 acumuladores, eventos, transmissão de informação, edição de imagens dos
 personagens. Utilização livre e espontânea da ferramenta.
 
-Aprender a desenvolver jogos na ferramenta Construct 3:  
+  
 Como princípios essenciais a serem desenvolvidos pelos alunos está, em primeiro
 lugar, entender o funcionamento básico da ferramenta: navegação em tela, salvar e
 abrir arquivos, criação de pastas no Windows, salvar imagens do Google no

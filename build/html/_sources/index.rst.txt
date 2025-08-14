@@ -18,11 +18,7 @@ Como está dividido esse documento?
 - Comandos CLI no Sistema Operacional
 - REGEX
 
-.. rubric:: Scratch
-
-Linguagem de programação criada em 2007, focada em programação de forma visual.
-
-.. rubric:: Engine Construct
+.. rubric:: Engine Defold
 
 Engine para desenvolvimento de jogos, focada em desenvolvimento de jogos de forma visual.
 
@@ -44,12 +40,12 @@ Aprender a utilizar o básico do sistema operacional, ajudando a introduzir os a
 informática básica, promovendo um melhor aprendizado nas ferramentas propostas
 no curso (que exigem conhecimento básico).
 
-Aprender a desenvolver animações e jogos no Scratch:  
+Aprender a desenvolver soluções na linguagem lua:  
 Os princípios essenciais a serem aprendidos: condições, laços, variáveis,
 acumuladores, eventos, transmissão de informação, edição de imagens dos
 personagens. Utilização livre e espontânea da ferramenta.
 
-Aprender a desenvolver jogos na ferramenta Construct 3:  
+  
 Como princípios essenciais a serem desenvolvidos pelos alunos está, em primeiro
 lugar, entender o funcionamento básico da ferramenta: navegação em tela, salvar e
 abrir arquivos, criação de pastas no Windows, salvar imagens do Google no

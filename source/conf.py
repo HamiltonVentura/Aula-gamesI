@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Lógica de programação'
+project = 'Lógica de programação com Jogos'
 copyright = '2025, Hamilton Ventura Rodrigues'
-author = 'Hamilton Ventura Rodrigues'
+author = 'Hamilton V. Rodrigues'
 release = '1.0'
 
 # -- General configuration ---------------------------------------------------
@@ -26,3 +26,4 @@ language = 'pt_BR'
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+

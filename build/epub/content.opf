@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="pt_BR"
+ unique-identifier="unknown"
+ prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf"
+        xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:language>pt_BR</dc:language>
+    <dc:title>Lógica de programação</dc:title>
+    <dc:description>unknown</dc:description>
+    <dc:creator>Hamilton Ventura Rodrigues</dc:creator>
+    <dc:contributor>unknown</dc:contributor>
+    <dc:publisher>Hamilton Ventura Rodrigues</dc:publisher>
+    <dc:rights>2025, Hamilton Ventura Rodrigues</dc:rights>
+    <dc:identifier id="unknown">unknown</dc:identifier>
+    <dc:date>2025-08-12T20:19:44Z</dc:date>
+    <meta property="dcterms:modified">2025-08-12T20:19:44Z</meta>
+    <meta property="ibooks:version"></meta>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="ibooks:binding">true</meta>
+    <meta property="ibooks:scroll-axis">vertical</meta>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="epub-0" href="genindex.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-1" href="index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-2" href="modelo_aula_02.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-3" href="modelo_aula_03.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-4" href="modelo_aula_04.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-5" href="modelo_aula_05.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-6" href="modelo_aula_06.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-7" href="modelo_aula_07.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-8" href="modelo_aula_08.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-9" href="modelo_aula_09.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-10" href="modelo_aula_10.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-11" href="modelo_aula_11.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-12" href="modelo_aula_12.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-13" href="_static/basic.css" media-type="text/css" />
+    <item id="epub-14" href="_static/epub.css" media-type="text/css" />
+    <item id="epub-15" href="_static/file.png" media-type="image/png" />
+    <item id="epub-16" href="_static/minus.png" media-type="image/png" />
+    <item id="epub-17" href="_static/plus.png" media-type="image/png" />
+    <item id="epub-18" href="_static/pygments.css" media-type="text/css" />
+  </manifest>
+  <spine toc="ncx" page-progression-direction="ltr">
+    <itemref idref="epub-1" />
+    <itemref idref="epub-2" />
+    <itemref idref="epub-3" />
+    <itemref idref="epub-4" />
+    <itemref idref="epub-5" />
+    <itemref idref="epub-6" />
+    <itemref idref="epub-7" />
+    <itemref idref="epub-8" />
+    <itemref idref="epub-9" />
+    <itemref idref="epub-10" />
+    <itemref idref="epub-11" />
+    <itemref idref="epub-12" />
+    <itemref idref="epub-0" />
+  </spine>
+  <guide>
+    <reference type="toc" title="Table of Contents" href="index.xhtml" />
+  </guide>
+</package>
