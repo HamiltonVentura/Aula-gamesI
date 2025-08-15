@@ -1,4 +1,4 @@
-Scratch - introdução ao código
+Linguagem Lua
 ==============================
 
 **Tempo de Aula:** 1h30min
@@ -9,45 +9,42 @@ Projetor, quadro branco, computadores.
 
 .. rubric:: Metodologia
 
-Expositiva, aplicação de exercícios / solução de problemas.
+- Expositiva.
+- Exercícios Guiados em programação e operação da Engine.
+- Estimulo a participação.
+- Desafio.
+
+.. rubric:: Objetivos
+
+- Compreender conceitos da linguagem de programação lua e aplicar na engine.
+- Desenvolver curiosidade e autonomia e raciocínio lógico.
 
 .. rubric:: Conteúdo Programático
 
-Como Aplicar movimentos aos personagens
-APlicar o bloco de comando Repita.
-Aplicar o bloco de comando SE
-Utilização dos blocos de comandos sensores.
-Utilizar o bloco de comando trocar fantasia
-Inserir o cenário do jogo/animação
-Salvando o projeto Projeto.
+- Programar teclas/Clicks para que o programa reconheça os comandos.
+- Animar personagem. 
+- Entender conceito de variável e função.
 
 .. rubric:: Descrição
 
-No primeiro momento deve-se explicar o conceito do Bloco de comando repita, fazendo com
-que o personagem repita os movimentos até encostar na borda da tela.
-Logo depois dentro do bloco de comando repita, utilizar o comando trocar fantasias.
-Deve-se estimular os alunos a editar os personagens para simular animação, e ao mesmo
-tempo modificar as fantasias para dar ilusão de movimento. Após essa parte ensinar a
-Modificar o cenário de fundo com algum da escolha do aluno.
+Deve-se gastar pelo menos 20 a 30 minutos reforçando os conteúdos com alguns
+exercícios na linguagem lua. Essa aula pode ser utilizada para focar exclusivamente nas funções e 
+conceitos da linguagem lua.
 
-.. rubric:: Avaliação
+.. code-block:: lua 
+    :caption: Exemplo de condições 
 
-Execução dos exercícios em sala de aula.
+        if VIDA_INIMIGO == 0 then
+            print("O inimigo foi derrotado!") 
+        elseif VIDA_PLAYER == 0 then
+            print("O jogador foi derrotado!")
+        else
+            print("A batalha continua!")
+        end
 
-.. rubric:: Exercícios de Desafio
+.. raw:: latex
 
-**Exercício 1: Criar uma animação simples**  
-Crie um projeto onde o personagem escolhido faça pelo menos dois movimentos diferentes (exemplo: andar para frente e girar).  
-Use blocos de código para controlar esses movimentos e troque as fantasias para simular animação.
-
-**Exercício 2: Explorar a área de fantasias e sons**  
-Adicione uma nova fantasia ao personagem ou crie uma fantasia personalizada.  
-Depois, escolha ou grave um som e faça o personagem reproduzi-lo quando a bandeira verde for clicada.
-
-**Exercício 3: Salvar e compartilhar o projeto**  
-Salve o projeto com um nome criativo.  
-Caso tenha acesso à internet, publique o projeto no site do Scratch e copie o link para compartilhar com um colega ou professor.
-
+    \newpage
 
 .. rubric:: Bibliografia
 
@@ -59,3 +56,4 @@ https://www.amazon.com.br/Introdução-desenvolvimento-games-Entendendo-universo
 
 Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Universo d).  
 https://br.99ebooks.net/download/treinamento-em-logica-de-programacao/
+

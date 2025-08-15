@@ -1,4 +1,4 @@
-Scratch - Eventos de interação
+Linguagem Lua
 ==============================
 
 **Tempo de Aula:** 1h30min
@@ -9,37 +9,45 @@ Projetor, quadro branco, computadores.
 
 .. rubric:: Metodologia
 
-Expositiva, aplicação de exercícios / solução de problemas.
+- Expositiva.
+- Exercícios Guiados em programação e operação da Engine.
+- Estimulo a participação.
+- Desafio.
+
+.. rubric:: Objetivos
+
+- Compreender conceitos da linguagem de programação lua e aplicar na engine.
+- Operadores aritméticos
+- if e else 
+- variáveis
+- Desenvolver curiosidade e autonomia e raciocínio lógico.
 
 .. rubric:: Conteúdo Programático
 
-- Fazer dois ou mais personagens/objetos interagirem.
-- Programar teclas
+- Programar teclas/Clicks para que o programa reconheça os comandos.
+- Animar personagem. 
+- Entender conceito de variável e função.
 
 .. rubric:: Descrição
 
 Deve-se gastar pelo menos 20 a 30 minutos reforçando os conteúdos com alguns
-exercícios. Após isso deve ser feito um exercício em conjunto para que o aluno entenda
-como funciona o comando transmitir e aprenda a editar códigos em mais de um
-personagem.
-A programação das teclas do teclado podem ser feitas com o bloco de comando “Quando a
-tecla for precionada”, podendo assim configurar os movimentos de esquerda, direita, cima e
-baixo.
+exercícios na linguagem lua. Essa aula pode ser utilizada para focar exclusivamente nas funções e 
+conceitos da linguagem lua.
 
-.. rubric:: Avaliação
+.. code-block:: lua 
+    :caption: Exemplo de condições 
 
-Execução dos exercícios em sala de aula.
+        if VIDA_INIMIGO == 0 then
+            print("O inimigo foi derrotado!") 
+        elseif VIDA_PLAYER == 0 then
+            print("O jogador foi derrotado!")
+        else
+            print("A batalha continua!")
+        end
 
-.. rubric:: Exercícios de Desafio
+.. raw:: latex
 
-**Desafio 1: Criar uma conversa entre personagens**  
-Faça dois personagens enviarem mensagens entre si usando o bloco “Transmitir” e “Quando eu receber”.  
-Programe para que um personagem diga algo, e o outro responda após receber a mensagem.
-
-**Desafio 2: Controle completo do personagem com teclado**  
-Programe um personagem para se movimentar em todas as direções (cima, baixo, esquerda, direita) usando as teclas correspondentes.  
-Adicione efeitos visuais, como troca de fantasia ou sons, para cada movimento realizado.
-
+    \newpage
 
 .. rubric:: Bibliografia
 
@@ -51,3 +59,4 @@ https://www.amazon.com.br/Introdução-desenvolvimento-games-Entendendo-universo
 
 Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Universo d).  
 https://br.99ebooks.net/download/treinamento-em-logica-de-programacao/
+

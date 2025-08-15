@@ -496,7 +496,49 @@ Momento para criar, desenhar personagens.
 \sphinxAtStartPar
 No decorrer dessa aula será exposto conceitos e um projeto como estudo de caso, os alunos poderão interagir
 e alterar e adicionar funcionalidades ao projeto. A ideia dessa aula é deixar as crianças a vontade para
-alterar e brincar com a ferramenta. Deve\sphinxhyphen{}se apresentar a documentação aos alunos de uma maneira bem dinâmica.
+alterar e brincar com a ferramenta. Deve\sphinxhyphen{}se apresentar a documentação aos alunos de uma maneira bem dinâmica,
+exemplos de códigos na linguagem lua, podendo\sphinxhyphen{}se alternar os exemplos de código na Engine Defold e VSCODE.
+\sphinxSetupCaptionForVerbatim{Exemplo exibição na tela com a função io.write.}
+\def\sphinxLiteralBlockLabel{\label{\detokenize{modelo_aula_02:id1}}}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{n+nb}{io.write}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{Naruto }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nb}{io.write}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Full Metal Alchemist }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nb}{io.write}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Dragon Ball }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\end{sphinxVerbatim}
+
+\sphinxAtStartPar
+Da mesma forma é possível utilizar a função print para poder ver no terminal alguma informaçãO
+\sphinxSetupCaptionForVerbatim{Exemplo exibição na tela com a função Print.}
+\def\sphinxLiteralBlockLabel{\label{\detokenize{modelo_aula_02:id2}}}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{n+nb}{io.write}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{Naruto }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nb}{io.write}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Full Metal Alchemist }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nb}{io.write}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Dragon Ball }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\end{sphinxVerbatim}
+
+\sphinxAtStartPar
+Após os Alunos terem um entendimento básico da Engine podese aprofundar no entendimento de alguns conceitos
+ja plicando na Engine:
+\sphinxSetupCaptionForVerbatim{Exemplo de variáveis}
+\def\sphinxLiteralBlockLabel{\label{\detokenize{modelo_aula_02:id3}}}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{n+nv}{VIDA\PYGZus{}PLAYER}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{100}
+\PYG{+w}{    }\PYG{n+nv}{VIDA\PYGZus{}INIMIGO}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{100}
+
+\PYG{+w}{    }\PYG{n+nv}{DANO\PYGZus{}PLAYER}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{20}
+\PYG{+w}{    }\PYG{n+nv}{DANO\PYGZus{}INIMIGO}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{15}
+
+\PYG{+w}{    }\PYG{k+kd}{local}\PYG{+w}{ }\PYG{n+nv}{ataque\PYGZus{}player}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nv}{VIDA\PYGZus{}INIMIGO}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nv}{DANO\PYGZus{}PLAYER}
+\PYG{+w}{    }\PYG{k+kd}{local}\PYG{+w}{ }\PYG{n+nv}{ataque\PYGZus{}inimigo}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nv}{VIDA\PYGZus{}PLAYER}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nv}{DANO\PYGZus{}INIMIGO}
+
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Vida do Player: }\PYG{l+s+s2}{\PYGZdq{}}\PYG{+w}{ }\PYG{o}{..}\PYG{+w}{ }\PYG{n+nv}{VIDA\PYGZus{}PLAYER}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Vida do Inimigo: }\PYG{l+s+s2}{\PYGZdq{}}\PYG{+w}{ }\PYG{o}{..}\PYG{+w}{ }\PYG{n+nv}{VIDA\PYGZus{}INIMIGO}\PYG{p}{)}
+
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{após os ataques:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Vida do Player: }\PYG{l+s+s2}{\PYGZdq{}}\PYG{+w}{ }\PYG{o}{..}\PYG{+w}{ }\PYG{n+nv}{ataque\PYGZus{}player}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Vida do Inimigo: }\PYG{l+s+s2}{\PYGZdq{}}\PYG{+w}{ }\PYG{o}{..}\PYG{+w}{ }\PYG{n+nv}{ataque\PYGZus{}inimigo}\PYG{p}{)}
+\end{sphinxVerbatim}
 
 \newpage
 
@@ -541,8 +583,8 @@ Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Unive
 \sphinxstepscope
 
 
-\chapter{Scratch \sphinxhyphen{} introdução ao código}
-\label{\detokenize{modelo_aula_03:scratch-introducao-ao-codigo}}\label{\detokenize{modelo_aula_03::doc}}
+\chapter{Linguagem Lua}
+\label{\detokenize{modelo_aula_03:linguagem-lua}}\label{\detokenize{modelo_aula_03::doc}}
 \sphinxAtStartPar
 \sphinxstylestrong{Tempo de Aula:} 1h30min
 \subsubsection*{Recursos Didáticos}
@@ -550,48 +592,69 @@ Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Unive
 \sphinxAtStartPar
 Projetor, quadro branco, computadores.
 \subsubsection*{Metodologia}
-
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
-Expositiva, aplicação de exercícios / solução de problemas.
+Expositiva.
+
+\item {} 
+\sphinxAtStartPar
+Exercícios Guiados em programação e operação da Engine.
+
+\item {} 
+\sphinxAtStartPar
+Estimulo a participação.
+
+\item {} 
+\sphinxAtStartPar
+Desafio.
+
+\end{itemize}
+\subsubsection*{Objetivos}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+Compreender conceitos da linguagem de programação lua e aplicar na engine.
+
+\item {} 
+\sphinxAtStartPar
+Desenvolver curiosidade e autonomia e raciocínio lógico.
+
+\end{itemize}
 \subsubsection*{Conteúdo Programático}
-
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
-Como Aplicar movimentos aos personagens
-APlicar o bloco de comando Repita.
-Aplicar o bloco de comando SE
-Utilização dos blocos de comandos sensores.
-Utilizar o bloco de comando trocar fantasia
-Inserir o cenário do jogo/animação
-Salvando o projeto Projeto.
+Programar teclas/Clicks para que o programa reconheça os comandos.
+
+\item {} 
+\sphinxAtStartPar
+Animar personagem.
+
+\item {} 
+\sphinxAtStartPar
+Entender conceito de variável e função.
+
+\end{itemize}
 \subsubsection*{Descrição}
 
 \sphinxAtStartPar
-No primeiro momento deve\sphinxhyphen{}se explicar o conceito do Bloco de comando repita, fazendo com
-que o personagem repita os movimentos até encostar na borda da tela.
-Logo depois dentro do bloco de comando repita, utilizar o comando trocar fantasias.
-Deve\sphinxhyphen{}se estimular os alunos a editar os personagens para simular animação, e ao mesmo
-tempo modificar as fantasias para dar ilusão de movimento. Após essa parte ensinar a
-Modificar o cenário de fundo com algum da escolha do aluno.
-\subsubsection*{Avaliação}
+Deve\sphinxhyphen{}se gastar pelo menos 20 a 30 minutos reforçando os conteúdos com alguns
+exercícios na linguagem lua. Essa aula pode ser utilizada para focar exclusivamente nas funções e
+conceitos da linguagem lua.
+\sphinxSetupCaptionForVerbatim{Exemplo de condições}
+\def\sphinxLiteralBlockLabel{\label{\detokenize{modelo_aula_03:id1}}}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{k+kr}{if}\PYG{+w}{ }\PYG{n+nv}{VIDA\PYGZus{}INIMIGO}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{+w}{ }\PYG{k+kr}{then}
+\PYG{+w}{        }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{O inimigo foi derrotado!}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{k+kr}{elseif}\PYG{+w}{ }\PYG{n+nv}{VIDA\PYGZus{}PLAYER}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{+w}{ }\PYG{k+kr}{then}
+\PYG{+w}{        }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{O jogador foi derrotado!}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{k+kr}{else}
+\PYG{+w}{        }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{A batalha continua!}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{k+kr}{end}
+\end{sphinxVerbatim}
 
-\sphinxAtStartPar
-Execução dos exercícios em sala de aula.
-\subsubsection*{Exercícios de Desafio}
-
-\sphinxAtStartPar
-\sphinxstylestrong{Exercício 1: Criar uma animação simples}
-Crie um projeto onde o personagem escolhido faça pelo menos dois movimentos diferentes (exemplo: andar para frente e girar).
-Use blocos de código para controlar esses movimentos e troque as fantasias para simular animação.
-
-\sphinxAtStartPar
-\sphinxstylestrong{Exercício 2: Explorar a área de fantasias e sons}
-Adicione uma nova fantasia ao personagem ou crie uma fantasia personalizada.
-Depois, escolha ou grave um som e faça o personagem reproduzi\sphinxhyphen{}lo quando a bandeira verde for clicada.
-
-\sphinxAtStartPar
-\sphinxstylestrong{Exercício 3: Salvar e compartilhar o projeto}
-Salve o projeto com um nome criativo.
-Caso tenha acesso à internet, publique o projeto no site do Scratch e copie o link para compartilhar com um colega ou professor.
+\newpage
 \subsubsection*{Bibliografia}
 
 \sphinxAtStartPar

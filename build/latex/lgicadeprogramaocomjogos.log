@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.8)  14 AUG 2025 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.8)  14 AUG 2025 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -882,53 +882,64 @@ Cap\'{\i }tulo 1.
 Cap\'{\i }tulo 2.
 [7
 
-] [8] [9] [10]
+]
+Package hyperref Info: bookmark level for unknown literalblock defaults to 0 on
+ input line 503.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 5
+03.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10> not available
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 504.
+ [8] [9]
+[10]
 Cap\'{\i }tulo 3.
 [11
 
-] [12]
+] [12] [13] [14
+
+]
 Cap\'{\i }tulo 4.
-[13
-
-] [14]
+[15] [16]
 Cap\'{\i }tulo 5.
-[15
-
-] [16]
-Cap\'{\i }tulo 6.
 [17
 
 ] [18]
-Cap\'{\i }tulo 7.
+Cap\'{\i }tulo 6.
 [19
 
 ] [20]
-Cap\'{\i }tulo 8.
+Cap\'{\i }tulo 7.
 [21
 
 ] [22]
-Cap\'{\i }tulo 9.
+Cap\'{\i }tulo 8.
 [23
 
 ] [24]
-Cap\'{\i }tulo 10.
+Cap\'{\i }tulo 9.
 [25
 
-] [26
+] [26]
+Cap\'{\i }tulo 10.
+[27
+
+] [28
 
 ]
 Cap\'{\i }tulo 11.
-(./lgicadeprogramaocomjogos.ind) [27] (./lgicadeprogramaocomjogos.aux)
+(./lgicadeprogramaocomjogos.ind) [29] (./lgicadeprogramaocomjogos.aux)
 Package rerunfilecheck Info: File `lgicadeprogramaocomjogos.out' has not change
 d.
-(rerunfilecheck)             Checksum: A3800EA0DA2197F9609578CE0078FB08;3358.
+(rerunfilecheck)             Checksum: D6A985D2C990B85E13EDA01C2628C4FC;3255.
  ) 
 Here is how much of TeX's memory you used:
- 19968 strings out of 476091
- 360579 string characters out of 5794082
- 1860330 words of memory out of 5000000
- 39909 multiletter control sequences out of 15000+600000
- 559348 words of font info for 68 fonts, out of 8000000 for 9000
+ 20040 strings out of 476091
+ 361703 string characters out of 5794082
+ 1891330 words of memory out of 5000000
+ 39965 multiletter control sequences out of 15000+600000
+ 560327 words of font info for 71 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  72i,12n,83p,1213b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/
@@ -936,11 +947,13 @@ enc/dvips/tex-gyre/q-ec.enc}</usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.
 pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvbi.pfb></usr/share/texmf/f
 onts/type1/public/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/public/tex-gy
 re/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/
-texmf/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on lgicadeprogramaocomjogos.pdf (31 pages, 194407 bytes).
+texmf/fonts/type1/public/tex-gyre/qtmri.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/txfonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/txfonts/t1xtt.pfb>
+Output written on lgicadeprogramaocomjogos.pdf (33 pages, 205932 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 273 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
+ 342 PDF objects out of 1000 (max. 8388607)
+ 290 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
  141 words of extra memory for PDF output out of 10000 (max. 10000000)
 

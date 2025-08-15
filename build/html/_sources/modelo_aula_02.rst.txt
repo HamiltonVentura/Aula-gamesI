@@ -43,7 +43,50 @@ Projetor, quadro branco, computadores.
 
 No decorrer dessa aula será exposto conceitos e um projeto como estudo de caso, os alunos poderão interagir
 e alterar e adicionar funcionalidades ao projeto. A ideia dessa aula é deixar as crianças a vontade para 
-alterar e brincar com a ferramenta. Deve-se apresentar a documentação aos alunos de uma maneira bem dinâmica.
+alterar e brincar com a ferramenta. Deve-se apresentar a documentação aos alunos de uma maneira bem dinâmica,
+exemplos de códigos na linguagem lua, podendo-se alternar os exemplos de código na Engine Defold e VSCODE.
+
+.. code-block:: lua
+    :caption: Exemplo exibição na tela com a função io.write.
+
+        io.write("\nNaruto \n")
+        io.write("Full Metal Alchemist \n")
+        io.write("Dragon Ball \n")
+       
+
+Da mesma forma é possível utilizar a função print para poder ver no terminal alguma informaçãO
+
+.. code-block:: lua
+    :caption: Exemplo exibição na tela com a função Print.
+
+        io.write("\nNaruto \n")
+        io.write("Full Metal Alchemist \n")
+        io.write("Dragon Ball \n")
+
+Após os Alunos terem um entendimento básico da Engine podese aprofundar no entendimento de alguns conceitos 
+ja plicando na Engine:
+
+.. code-block:: lua 
+    :caption: Exemplo de variáveis
+
+        VIDA_PLAYER = 100
+        VIDA_INIMIGO = 100
+
+        DANO_PLAYER = 20
+        DANO_INIMIGO = 15
+
+        local ataque_player = VIDA_INIMIGO - DANO_PLAYER
+        local ataque_inimigo = VIDA_PLAYER - DANO_INIMIGO
+
+        print("Vida do Player: " .. VIDA_PLAYER)
+        print("Vida do Inimigo: " .. VIDA_INIMIGO)
+
+        print("após os ataques:")
+
+        print("Vida do Player: " .. ataque_player)
+        print("Vida do Inimigo: " .. ataque_inimigo)
+
+
 
 .. raw:: latex
 

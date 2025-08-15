@@ -20,7 +20,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Índice" href="genindex.html" />
     <link rel="search" title="Buscar" href="search.html" />
-    <link rel="next" title="Scratch - introdução ao código" href="modelo_aula_03.html" />
+    <link rel="next" title="Linguagem Lua" href="modelo_aula_03.html" />
     <link rel="prev" title="Introdução ao Curso" href="modelo_aula_01.html" /> 
 </head>
 
@@ -51,7 +51,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#exercicio-aula-2-introducao-ao-defold">Exercício Aula 2 - Introdução ao Defold</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_03.html">Scratch - introdução ao código</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_03.html">Linguagem Lua</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_04.html">Scratch - Eventos de interação</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_05.html">Introdução ao Scratch: Variáveis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_06.html">Construct: Introdução e navegação</a></li>
@@ -123,7 +123,48 @@
 <p class="rubric">Descrição</p>
 <p>No decorrer dessa aula será exposto conceitos e um projeto como estudo de caso, os alunos poderão interagir
 e alterar e adicionar funcionalidades ao projeto. A ideia dessa aula é deixar as crianças a vontade para
-alterar e brincar com a ferramenta. Deve-se apresentar a documentação aos alunos de uma maneira bem dinâmica.</p>
+alterar e brincar com a ferramenta. Deve-se apresentar a documentação aos alunos de uma maneira bem dinâmica,
+exemplos de códigos na linguagem lua, podendo-se alternar os exemplos de código na Engine Defold e VSCODE.</p>
+<div class="literal-block-wrapper docutils container" id="id1">
+<div class="code-block-caption"><span class="caption-text">Exemplo exibição na tela com a função io.write.</span><a class="headerlink" href="#id1" title="Link para este código"></a></div>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="w">    </span><span class="nb">io.write</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Naruto </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="nb">io.write</span><span class="p">(</span><span class="s2">&quot;Full Metal Alchemist </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="nb">io.write</span><span class="p">(</span><span class="s2">&quot;Dragon Ball </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<p>Da mesma forma é possível utilizar a função print para poder ver no terminal alguma informaçãO</p>
+<div class="literal-block-wrapper docutils container" id="id2">
+<div class="code-block-caption"><span class="caption-text">Exemplo exibição na tela com a função Print.</span><a class="headerlink" href="#id2" title="Link para este código"></a></div>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="w">    </span><span class="nb">io.write</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Naruto </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="nb">io.write</span><span class="p">(</span><span class="s2">&quot;Full Metal Alchemist </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="nb">io.write</span><span class="p">(</span><span class="s2">&quot;Dragon Ball </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<p>Após os Alunos terem um entendimento básico da Engine podese aprofundar no entendimento de alguns conceitos
+ja plicando na Engine:</p>
+<div class="literal-block-wrapper docutils container" id="id3">
+<div class="code-block-caption"><span class="caption-text">Exemplo de variáveis</span><a class="headerlink" href="#id3" title="Link para este código"></a></div>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="w">    </span><span class="nv">VIDA_PLAYER</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">100</span>
+<span class="w">    </span><span class="nv">VIDA_INIMIGO</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">100</span>
+
+<span class="w">    </span><span class="nv">DANO_PLAYER</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20</span>
+<span class="w">    </span><span class="nv">DANO_INIMIGO</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">15</span>
+
+<span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">ataque_player</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">VIDA_INIMIGO</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nv">DANO_PLAYER</span>
+<span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">ataque_inimigo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">VIDA_PLAYER</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nv">DANO_INIMIGO</span>
+
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Vida do Player: &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">VIDA_PLAYER</span><span class="p">)</span>
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Vida do Inimigo: &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">VIDA_INIMIGO</span><span class="p">)</span>
+
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;após os ataques:&quot;</span><span class="p">)</span>
+
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Vida do Player: &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">ataque_player</span><span class="p">)</span>
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Vida do Inimigo: &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">ataque_inimigo</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
 </section>
 <section id="exercicio-aula-2-introducao-ao-defold">
 <h2>Exercício Aula 2 - Introdução ao Defold<a class="headerlink" href="#exercicio-aula-2-introducao-ao-defold" title="Link para este cabeçalho"></a></h2>
@@ -149,7 +190,7 @@ Disponível em: &lt;<a class="reference external" href="https://defold.com/">htt
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Rodapé">
         <a href="modelo_aula_01.html" class="btn btn-neutral float-left" title="Introdução ao Curso" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
-        <a href="modelo_aula_03.html" class="btn btn-neutral float-right" title="Scratch - introdução ao código" accesskey="n" rel="next">Próximo <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="modelo_aula_03.html" class="btn btn-neutral float-right" title="Linguagem Lua" accesskey="n" rel="next">Próximo <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
