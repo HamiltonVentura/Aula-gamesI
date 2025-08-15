@@ -1,4 +1,4 @@
-Construct: Introdução e navegação
+Ciclo de vida do jogo
 =================================
 
 **Tempo de Aula:** 1h30min

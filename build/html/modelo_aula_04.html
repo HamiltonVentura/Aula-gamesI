@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Scratch - Eventos de interação &mdash; documentação Lógica de programação com Jogos 1.0</title>
+  <title>Linguagem Lua II &mdash; documentação Lógica de programação com Jogos 1.0</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -21,7 +21,7 @@
     <link rel="index" title="Índice" href="genindex.html" />
     <link rel="search" title="Buscar" href="search.html" />
     <link rel="next" title="Introdução ao Scratch: Variáveis" href="modelo_aula_05.html" />
-    <link rel="prev" title="Scratch - introdução ao código" href="modelo_aula_03.html" /> 
+    <link rel="prev" title="Linguagem Lua" href="modelo_aula_03.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -45,9 +45,10 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Menu de navegação">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_02.html">Introdução ao Curso</a></li>
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_03.html">Scratch - introdução ao código</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Scratch - Eventos de interação</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_01.html">Introdução ao Curso</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_02.html">Introdução ao Defold</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_03.html">Linguagem Lua</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Linguagem Lua II</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_05.html">Introdução ao Scratch: Variáveis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_06.html">Construct: Introdução e navegação</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_07.html">Construct: Animação de personagens</a></li>
@@ -55,7 +56,6 @@
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_09.html">Construct: Tile Maps</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_10.html">Construct: Elementos de jogo - Barra de vida, Moedas (status)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_11.html">Construct: Aula de Revisão</a></li>
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_12.html">Construct: Hierarquia e Camadas</a></li>
 </ul>
 
         </div>
@@ -72,7 +72,7 @@
           <div role="navigation" aria-label="Navegação da página">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Scratch - Eventos de interação</li>
+      <li class="breadcrumb-item active">Linguagem Lua II</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/modelo_aula_04.rst.txt" rel="nofollow"> Ver código-fonte da página</a>
       </li>
@@ -82,35 +82,28 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="scratch-eventos-de-interacao">
-<h1>Scratch - Eventos de interação<a class="headerlink" href="#scratch-eventos-de-interacao" title="Link para este cabeçalho"></a></h1>
+  <section id="linguagem-lua-ii">
+<h1>Linguagem Lua II<a class="headerlink" href="#linguagem-lua-ii" title="Link para este cabeçalho"></a></h1>
 <p><strong>Tempo de Aula:</strong> 1h30min</p>
 <p class="rubric">Recursos Didáticos</p>
 <p>Projetor, quadro branco, computadores.</p>
 <p class="rubric">Metodologia</p>
-<p>Expositiva, aplicação de exercícios / solução de problemas.</p>
+<ul class="simple">
+<li><p>Expositiva.</p></li>
+<li><p>Exercícios Guiados em programação e operação da Engine.</p></li>
+<li><p>Desafio - Memória Muscular</p></li>
+</ul>
 <p class="rubric">Conteúdo Programático</p>
 <ul class="simple">
-<li><p>Fazer dois ou mais personagens/objetos interagirem.</p></li>
-<li><p>Programar teclas</p></li>
+<li><p>Utilização de funções da Linguagem Lua.</p></li>
+<li><p>Utilização de variáveis, laços e condições.</p></li>
+<li><p>Utilização de Tabelas.</p></li>
 </ul>
 <p class="rubric">Descrição</p>
-<p>Deve-se gastar pelo menos 20 a 30 minutos reforçando os conteúdos com alguns
-exercícios. Após isso deve ser feito um exercício em conjunto para que o aluno entenda
-como funciona o comando transmitir e aprenda a editar códigos em mais de um
-personagem.
-A programação das teclas do teclado podem ser feitas com o bloco de comando “Quando a
-tecla for precionada”, podendo assim configurar os movimentos de esquerda, direita, cima e
-baixo.</p>
+<p>Para Os Alunos internalizarem bem como é fluxo de funcionamento do Defold com relação aos
+escripts, Serão entregues exercícios que ja utilizam de determinadas funções do próprio Defold.</p>
 <p class="rubric">Avaliação</p>
 <p>Execução dos exercícios em sala de aula.</p>
-<p class="rubric">Exercícios de Desafio</p>
-<p><strong>Desafio 1: Criar uma conversa entre personagens</strong>
-Faça dois personagens enviarem mensagens entre si usando o bloco “Transmitir” e “Quando eu receber”.
-Programe para que um personagem diga algo, e o outro responda após receber a mensagem.</p>
-<p><strong>Desafio 2: Controle completo do personagem com teclado</strong>
-Programe um personagem para se movimentar em todas as direções (cima, baixo, esquerda, direita) usando as teclas correspondentes.
-Adicione efeitos visuais, como troca de fantasia ou sons, para cada movimento realizado.</p>
 <p class="rubric">Bibliografia</p>
 <p>SCIRRA, L. (2022). Manual Construct.
 <a class="reference external" href="https://www.construct.net/en/make-games/manuals/construct-3">https://www.construct.net/en/make-games/manuals/construct-3</a></p>
@@ -124,7 +117,7 @@ Adicione efeitos visuais, como troca de fantasia ou sons, para cada movimento re
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Rodapé">
-        <a href="modelo_aula_03.html" class="btn btn-neutral float-left" title="Scratch - introdução ao código" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="modelo_aula_03.html" class="btn btn-neutral float-left" title="Linguagem Lua" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
         <a href="modelo_aula_05.html" class="btn btn-neutral float-right" title="Introdução ao Scratch: Variáveis" accesskey="n" rel="next">Próximo <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

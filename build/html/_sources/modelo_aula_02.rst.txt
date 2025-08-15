@@ -59,9 +59,9 @@ Da mesma forma é possível utilizar a função print para poder ver no terminal
 .. code-block:: lua
     :caption: Exemplo exibição na tela com a função Print.
 
-        io.write("\nNaruto \n")
-        io.write("Full Metal Alchemist \n")
-        io.write("Dragon Ball \n")
+        print("\nNaruto \n")
+        print("Full Metal Alchemist \n")
+        print("Dragon Ball \n")
 
 Após os Alunos terem um entendimento básico da Engine podese aprofundar no entendimento de alguns conceitos 
 ja plicando na Engine:

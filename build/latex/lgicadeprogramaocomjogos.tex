@@ -511,9 +511,9 @@ Da mesma forma é possível utilizar a função print para poder ver no terminal
 \sphinxSetupCaptionForVerbatim{Exemplo exibição na tela com a função Print.}
 \def\sphinxLiteralBlockLabel{\label{\detokenize{modelo_aula_02:id2}}}
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
-\PYG{+w}{    }\PYG{n+nb}{io.write}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{Naruto }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
-\PYG{+w}{    }\PYG{n+nb}{io.write}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Full Metal Alchemist }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
-\PYG{+w}{    }\PYG{n+nb}{io.write}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Dragon Ball }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{Naruto }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Full Metal Alchemist }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Dragon Ball }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
 \end{sphinxVerbatim}
 
 \sphinxAtStartPar
@@ -618,6 +618,18 @@ Compreender conceitos da linguagem de programação lua e aplicar na engine.
 
 \item {} 
 \sphinxAtStartPar
+Operadores aritméticos
+
+\item {} 
+\sphinxAtStartPar
+if e else
+
+\item {} 
+\sphinxAtStartPar
+variáveis
+
+\item {} 
+\sphinxAtStartPar
 Desenvolver curiosidade e autonomia e raciocínio lógico.
 
 \end{itemize}
@@ -658,8 +670,8 @@ conceitos da linguagem lua.
 \subsubsection*{Bibliografia}
 
 \sphinxAtStartPar
-SCIRRA, L. (2022). Manual Construct.
-\sphinxurl{https://www.construct.net/en/make-games/manuals/construct-3}
+FOUNDATION, Defold. Defold \sphinxhyphen{} Official Homepage \sphinxhyphen{} Cross platform game engine.
+Disponível em: \textless{}\sphinxurl{https://defold.com/}\textgreater{}. Acesso em: 25 jun. 2025.
 
 \sphinxAtStartPar
 Rabin, S. (n.d.). Introdução ao desenvolvimento de games (Cengage Le, Vol. 1).
@@ -672,8 +684,8 @@ Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Unive
 \sphinxstepscope
 
 
-\chapter{Scratch \sphinxhyphen{} Eventos de interação}
-\label{\detokenize{modelo_aula_04:scratch-eventos-de-interacao}}\label{\detokenize{modelo_aula_04::doc}}
+\chapter{Linguagem Lua II}
+\label{\detokenize{modelo_aula_04:linguagem-lua-ii}}\label{\detokenize{modelo_aula_04::doc}}
 \sphinxAtStartPar
 \sphinxstylestrong{Tempo de Aula:} 1h30min
 \subsubsection*{Recursos Didáticos}
@@ -681,45 +693,46 @@ Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Unive
 \sphinxAtStartPar
 Projetor, quadro branco, computadores.
 \subsubsection*{Metodologia}
-
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
-Expositiva, aplicação de exercícios / solução de problemas.
+Expositiva.
+
+\item {} 
+\sphinxAtStartPar
+Exercícios Guiados em programação e operação da Engine.
+
+\item {} 
+\sphinxAtStartPar
+Desafio \sphinxhyphen{} Memória Muscular
+
+\end{itemize}
 \subsubsection*{Conteúdo Programático}
 \begin{itemize}
 \item {} 
 \sphinxAtStartPar
-Fazer dois ou mais personagens/objetos interagirem.
+Utilização de funções da Linguagem Lua.
 
 \item {} 
 \sphinxAtStartPar
-Programar teclas
+Utilização de variáveis, laços e condições.
+
+\item {} 
+\sphinxAtStartPar
+Utilização de Tabelas.
 
 \end{itemize}
 \subsubsection*{Descrição}
 
 \sphinxAtStartPar
-Deve\sphinxhyphen{}se gastar pelo menos 20 a 30 minutos reforçando os conteúdos com alguns
-exercícios. Após isso deve ser feito um exercício em conjunto para que o aluno entenda
-como funciona o comando transmitir e aprenda a editar códigos em mais de um
-personagem.
-A programação das teclas do teclado podem ser feitas com o bloco de comando “Quando a
-tecla for precionada”, podendo assim configurar os movimentos de esquerda, direita, cima e
-baixo.
+Para Os Alunos internalizarem bem como é fluxo de funcionamento do Defold com relação aos
+escripts, Serão entregues exercícios que ja utilizam de determinadas funções do próprio Defold.
 \subsubsection*{Avaliação}
 
 \sphinxAtStartPar
 Execução dos exercícios em sala de aula.
-\subsubsection*{Exercícios de Desafio}
 
-\sphinxAtStartPar
-\sphinxstylestrong{Desafio 1: Criar uma conversa entre personagens}
-Faça dois personagens enviarem mensagens entre si usando o bloco “Transmitir” e “Quando eu receber”.
-Programe para que um personagem diga algo, e o outro responda após receber a mensagem.
-
-\sphinxAtStartPar
-\sphinxstylestrong{Desafio 2: Controle completo do personagem com teclado}
-Programe um personagem para se movimentar em todas as direções (cima, baixo, esquerda, direita) usando as teclas correspondentes.
-Adicione efeitos visuais, como troca de fantasia ou sons, para cada movimento realizado.
+\newpage
 \subsubsection*{Bibliografia}
 
 \sphinxAtStartPar

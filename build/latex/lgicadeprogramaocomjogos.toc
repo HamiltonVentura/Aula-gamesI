@@ -6,7 +6,7 @@
 \contentsline {section}{\numberline {2.1}Aula sobre Engine Defold}{7}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Exercício Aula 2 \sphinxhyphen {} Introdução ao Defold}{9}{section.2.2}%
 \contentsline {chapter}{\numberline {3}Linguagem Lua}{11}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Scratch \sphinxhyphen {} Eventos de interação}{15}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Linguagem Lua II}{15}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Introdução ao Scratch: Variáveis}{17}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Construct: Introdução e navegação}{19}{chapter.6}%
 \contentsline {chapter}{\numberline {7}Construct: Animação de personagens}{21}{chapter.7}%
