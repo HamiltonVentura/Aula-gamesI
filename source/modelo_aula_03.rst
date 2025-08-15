@@ -1,4 +1,4 @@
-Scratch - introdução ao código
+Scratch - Eventos de interação
 ==============================
 
 **Tempo de Aula:** 1h30min
@@ -13,22 +13,18 @@ Expositiva, aplicação de exercícios / solução de problemas.
 
 .. rubric:: Conteúdo Programático
 
-Como Aplicar movimentos aos personagens
-APlicar o bloco de comando Repita.
-Aplicar o bloco de comando SE
-Utilização dos blocos de comandos sensores.
-Utilizar o bloco de comando trocar fantasia
-Inserir o cenário do jogo/animação
-Salvando o projeto Projeto.
+- Fazer dois ou mais personagens/objetos interagirem.
+- Programar teclas
 
 .. rubric:: Descrição
 
-No primeiro momento deve-se explicar o conceito do Bloco de comando repita, fazendo com
-que o personagem repita os movimentos até encostar na borda da tela.
-Logo depois dentro do bloco de comando repita, utilizar o comando trocar fantasias.
-Deve-se estimular os alunos a editar os personagens para simular animação, e ao mesmo
-tempo modificar as fantasias para dar ilusão de movimento. Após essa parte ensinar a
-Modificar o cenário de fundo com algum da escolha do aluno.
+Deve-se gastar pelo menos 20 a 30 minutos reforçando os conteúdos com alguns
+exercícios. Após isso deve ser feito um exercício em conjunto para que o aluno entenda
+como funciona o comando transmitir e aprenda a editar códigos em mais de um
+personagem.
+A programação das teclas do teclado podem ser feitas com o bloco de comando “Quando a
+tecla for precionada”, podendo assim configurar os movimentos de esquerda, direita, cima e
+baixo.
 
 .. rubric:: Avaliação
 
@@ -36,17 +32,13 @@ Execução dos exercícios em sala de aula.
 
 .. rubric:: Exercícios de Desafio
 
-**Exercício 1: Criar uma animação simples**  
-Crie um projeto onde o personagem escolhido faça pelo menos dois movimentos diferentes (exemplo: andar para frente e girar).  
-Use blocos de código para controlar esses movimentos e troque as fantasias para simular animação.
+**Desafio 1: Criar uma conversa entre personagens**  
+Faça dois personagens enviarem mensagens entre si usando o bloco “Transmitir” e “Quando eu receber”.  
+Programe para que um personagem diga algo, e o outro responda após receber a mensagem.
 
-**Exercício 2: Explorar a área de fantasias e sons**  
-Adicione uma nova fantasia ao personagem ou crie uma fantasia personalizada.  
-Depois, escolha ou grave um som e faça o personagem reproduzi-lo quando a bandeira verde for clicada.
-
-**Exercício 3: Salvar e compartilhar o projeto**  
-Salve o projeto com um nome criativo.  
-Caso tenha acesso à internet, publique o projeto no site do Scratch e copie o link para compartilhar com um colega ou professor.
+**Desafio 2: Controle completo do personagem com teclado**  
+Programe um personagem para se movimentar em todas as direções (cima, baixo, esquerda, direita) usando as teclas correspondentes.  
+Adicione efeitos visuais, como troca de fantasia ou sons, para cada movimento realizado.
 
 
 .. rubric:: Bibliografia

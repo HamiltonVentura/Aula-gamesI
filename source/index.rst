@@ -36,7 +36,10 @@ Aprender a utilizar o básico do sistema operacional, ajudando a introduzir os a
 informática básica, promovendo um melhor aprendizado nas ferramentas propostas
 no curso (que exigem conhecimento básico).
 
-Aprender a desenvolver soluções na linguagem lua:  
+Aprender a desenvolver soluções na linguagem `lua`_ . 
+
+.. _lua: https://www.lua.org/
+
 Os princípios essenciais a serem aprendidos: condições, laços, variáveis,
 acumuladores, eventos, transmissão de informação, edição de imagens dos
 personagens. Utilização livre e espontânea da ferramenta.
@@ -55,6 +58,7 @@ ativar animações em determinadas situações, trabalhando com eventos.
    :maxdepth: 2
    :caption: Contents:
 
+   modelo_aula_01   
    modelo_aula_02
    modelo_aula_03
    modelo_aula_04
@@ -65,4 +69,3 @@ ativar animações em determinadas situações, trabalhando com eventos.
    modelo_aula_09
    modelo_aula_10
    modelo_aula_11
-   modelo_aula_12

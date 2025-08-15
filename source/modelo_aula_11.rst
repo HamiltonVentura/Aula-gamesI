@@ -1,5 +1,5 @@
-Construct: Aula de Revisão
-==========================
+Construct: Hierarquia e Camadas
+===============================
 
 **Tempo de Aula:** 1h30min
 
@@ -13,16 +13,27 @@ Expositiva, aplicação de exercícios / solução de problemas.
 
 .. rubric:: Conteúdo Programático
 
-REFORÇAR CONTEÚDOS DAS AULAS PASSADAS.
+HIERARQUIA DE SPRITES
 
 .. rubric:: Descrição
 
-Reforço dos conteúdos passados, visando levar o aluno a relembrar os principais
-conceitos das aulas.
+Entender o que é hierarquia, anexar filhos aos pais de cada elemento.
 
 .. rubric:: Avaliação
 
 Execução dos exercícios em sala de aula.
+1 - O personagem principal deve possuir um objeto que será anexado a si mesmo.
+
+.. rubric:: Exercícios
+
+**Exercício 1: Criar hierarquia de objetos**  
+Crie um personagem principal e anexe a ele um objeto filho, como uma espada ou escudo.  
+Faça com que o objeto filho se mova e gire junto com o personagem principal.
+
+**Exercício 2: Manipular camadas para profundidade**  
+Organize diferentes objetos em camadas distintas (por exemplo, personagem em uma camada, cenário em outra).  
+Teste a visibilidade e sobreposição para garantir que os objetos apareçam na ordem correta durante o jogo.
+
 
 .. rubric:: Bibliografia
 

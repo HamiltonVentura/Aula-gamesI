@@ -5,15 +5,15 @@
   <metadata xmlns:opf="http://www.idpf.org/2007/opf"
         xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:language>pt_BR</dc:language>
-    <dc:title>Lógica de programação</dc:title>
+    <dc:title>Lógica de programação com Jogos</dc:title>
     <dc:description>unknown</dc:description>
-    <dc:creator>Hamilton Ventura Rodrigues</dc:creator>
+    <dc:creator>Hamilton V. Rodrigues</dc:creator>
     <dc:contributor>unknown</dc:contributor>
-    <dc:publisher>Hamilton Ventura Rodrigues</dc:publisher>
+    <dc:publisher>Hamilton V. Rodrigues</dc:publisher>
     <dc:rights>2025, Hamilton Ventura Rodrigues</dc:rights>
     <dc:identifier id="unknown">unknown</dc:identifier>
-    <dc:date>2025-08-12T20:19:44Z</dc:date>
-    <meta property="dcterms:modified">2025-08-12T20:19:44Z</meta>
+    <dc:date>2025-08-14T23:23:23Z</dc:date>
+    <meta property="dcterms:modified">2025-08-14T23:23:23Z</meta>
     <meta property="ibooks:version"></meta>
     <meta property="ibooks:specified-fonts">true</meta>
     <meta property="ibooks:binding">true</meta>

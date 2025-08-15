@@ -1,69 +1,79 @@
-Introdução a Linguagem Lua - Termos e Definições
-=====================================================
+Introdução ao Defold
+==============================
+
+Aula sobre Engine Defold
+--------------------------
 
 **Tempo de Aula:** 1h30min
 
 .. rubric:: Recursos Didáticos
 
-Projetor, quadro branco, computadores e internet.
+Projetor, quadro branco, computadores.
 
 .. rubric:: Metodologia
 
-Expositiva, aplicação de exercícios e solução de problemas.
+- Expositiva.
+- Exercícios Guiados em programação e operação da Engine.
+- Estimulo a participação.
+
+.. rubric:: Objetivos
+
+- Compreender conceitos básicos que estão por trás da criação de jogos.
+- Aplicar na prática alteração e criação de partes de um projeto.
+- Desenvolver curiosidade e autonomia e raciocínio lógico.
 
 .. rubric:: Conteúdo Programático
 
-- Ligar computador, abrir navegador web, pesquisar no Google.
-- Iniciar um projeto no Defold; navegar nas áreas: código, área de trabalho.
-- Termos e definições de tipos de imagens (JPG,PNG,GIF E SVG)
-- Termos e definições: sprites,plataformas,Engines, TIles
-- Jogos que foram desenvolvidos utilizando a linguagem.
-- SOftwares de apoio: (LIbre Sprite, Inkscape, Krita)
+**Ambientação**
+
+- Estrutura de um projeto 
+- Revisão conceitos(Sprites, Tilesource, TileMaps)
+
+**Estudo de Caso**
+
+- Analise Projeto simples
+
+**Aplicação dos conceitos**
+
+- Criando personagem e cenários e adicionando ao projeto.
+- Momento para criar, desenhar personagens.
+
 
 .. rubric:: Descrição
 
-A aula abordará os conceitos introdutórios da linguagem de programação Lua, 
-incluindo exemplos práticos de entrada e saída de dados. Serão utilizados o 
-Visual Studio Code e o terminal como ambientes de desenvolvimento, permitindo 
-que os alunos compreendam, na prática, o funcionamento dos códigos.
-Além disso, será apresentada uma visão geral das ferramentas LibreSprite e Inkscape, 
-destacando suas principais funcionalidades e aplicações no desenvolvimento de artes
-digitais e sprites para jogos.
-Ao final, será reservado um momento para que as crianças
-possam explorar livremente essas ferramentas, incentivando a criatividade, a experimentação e o 
-desenvolvimento de habilidades artísticas e técnicas. Após a apresentação dos Slides é 
-necessário deixar pelo menos 30 minutos para as crianças brincarem.
+No decorrer dessa aula será exposto conceitos e um projeto como estudo de caso, os alunos poderão interagir
+e alterar e adicionar funcionalidades ao projeto. A ideia dessa aula é deixar as crianças a vontade para 
+alterar e brincar com a ferramenta. Deve-se apresentar a documentação aos alunos de uma maneira bem dinâmica.
+
+.. raw:: latex
+
+    \newpage
+
+Exercício Aula 2 - Introdução ao Defold 
+-------------------------------------------
+
+Data: ___/___/___
+
+**Faça os exercícios:**
+
+- 1 – Utilize os sprites de personagem, para importar para o Defold com as devidas configurações, anime o personagem, nos modos andando e parado.
+- 2 – Anime e configure o personagem com os comandos para direita e para a esquerda.
+- 3 – Crie um personagem animado com libresprite salve os arquivos e importe para o seu projeto.
 
 
-.. rubric:: Avaliação
+.. raw:: latex
 
-Execução dos exercícios em sala de aula.
+    \newpage
 
-Desafios - Introdução ao Scratch, navegação e criação de projeto
----------------------------------------------------------------
 
-**Exercício 1: Criar um exemplo de saída**  
-Crie um arquivo no vscode e digite um código que exiba Hellow Word na tela e seguido do seu nome.
-
-**Exercício 2: Criar código direto no terminal**  
-Crie uma saida escrita Hellow Word mas diretamente na tela;
-
----
 
 .. rubric:: Bibliografia
 
-LUA. Lua.org. Rio de Janeiro: PUC-Rio, [s.d.]. 
-Disponível em: https://www.lua.org/. Acesso em: 14 ago. 2025.
-
-LIBRESPRITE. LibreSprite. [S. l.]: LibreSprite, [s.d.]. 
-Disponível em: https://libresprite.github.io/. Acesso em: 14 ago. 2025.
-
-INKSCAPE. Inkscape. [S. l.]: Inkscape, [s.d.]. 
-Disponível em: https://inkscape.org/. Acesso em: 14 ago. 2025.
+FOUNDATION, Defold. Defold - Official Homepage - Cross platform game engine. 
+Disponível em: <https://defold.com/>. Acesso em: 25 jun. 2025. 
 
 Rabin, S. (n.d.). Introdução ao desenvolvimento de games (Cengage Le, Vol. 1).  
 https://www.amazon.com.br/Introdução-desenvolvimento-games-Entendendo-universo/dp/852211143X
 
 Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Universo d).  
 https://br.99ebooks.net/download/treinamento-em-logica-de-programacao/
-

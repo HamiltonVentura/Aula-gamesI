@@ -1,5 +1,5 @@
-Introdução ao Scratch: Variáveis
-================================
+Construct: Introdução e navegação
+=================================
 
 **Tempo de Aula:** 1h30min
 
@@ -13,34 +13,29 @@ Expositiva, aplicação de exercícios / solução de problemas.
 
 .. rubric:: Conteúdo Programático
 
-Utilizar as estruturas básicas do Scratch para um desafio final utilizando variáveis
-para contar a quantidade de moedas recolhidas pelo gatinho.
+- Navegação na plataforma.
+- Criação de um novo projeto
+- Testar jogos da plataforma
 
 .. rubric:: Descrição
 
-Para esse desafio final, alguns elementos são necessários para o aluno conseguir entender
-a lógica do construct:
-1 - Condições (Bloco SE)
-2 - Comparar Variáveis
-Para tanto será feita uma revisão para posteriormente ser lançado o desafio.
+A navegação é um ponto crítico que deve ser sempre relembrado, pois muitos alunos se
+perdem dentro da área da Engine, por falta de entender esse conceito de navegação.
+Criação de personagem e do cenário no chão. Adicionar os comportamentos .
+No decorrer dessa aula deve-se deixar os alunos explorarem para desenhar o próprio
+personagem e adicionar comportamentos.
 
 .. rubric:: Avaliação
 
-Execução dos exercícios em sala de aula.
+Execução dos exercícios em sala de aula. 
 
-.. rubric:: Exercícios de Desafio
-
-**Desafio 1: Criar uma condição simples**  
-Utilize o bloco SE para criar um programa onde, se uma variável atingir um valor específico,  
-uma ação seja executada (exemplo: mudar a cor de um objeto ou mostrar uma mensagem).
-
-**Desafio 2: Comparação de variáveis**  
-Programe duas variáveis para serem comparadas.  
-Quando as variáveis forem iguais, execute uma ação (exemplo: desbloquear uma fase ou ativar um efeito).
-
-**Desafio 3: Combinação de condições e variáveis**  
-Crie um cenário onde múltiplas condições devem ser atendidas para uma ação ocorrer.  
-Por exemplo, se variável A for maior que 10 **e** variável B for igual a 5, então o personagem ganha um bônus.
+.. rubric:: Observação 
+    
+Pode ser feito uma análise para verificar se compensar ter todos os arquivos em uma
+pasta para o aluno, assim ele trabalha diretamente com a ferramenta sem se preocupar em
+baixar as imagens ou caçalas na internet. Isso acaba levando muito tempo de uma aula 30
+% na escolha e pesquisa. Sendo assim deixaremos uma pasta com personagens GIF e jpg
+Cenários e etc.
 
 .. rubric:: Bibliografia
 

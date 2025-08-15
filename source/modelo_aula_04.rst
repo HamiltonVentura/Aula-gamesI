@@ -1,5 +1,5 @@
-Scratch - Eventos de interação
-==============================
+Introdução ao Scratch: Variáveis
+================================
 
 **Tempo de Aula:** 1h30min
 
@@ -13,18 +13,16 @@ Expositiva, aplicação de exercícios / solução de problemas.
 
 .. rubric:: Conteúdo Programático
 
-- Fazer dois ou mais personagens/objetos interagirem.
-- Programar teclas
+Utilizar as estruturas básicas do Scratch para um desafio final utilizando variáveis
+para contar a quantidade de moedas recolhidas pelo gatinho.
 
 .. rubric:: Descrição
 
-Deve-se gastar pelo menos 20 a 30 minutos reforçando os conteúdos com alguns
-exercícios. Após isso deve ser feito um exercício em conjunto para que o aluno entenda
-como funciona o comando transmitir e aprenda a editar códigos em mais de um
-personagem.
-A programação das teclas do teclado podem ser feitas com o bloco de comando “Quando a
-tecla for precionada”, podendo assim configurar os movimentos de esquerda, direita, cima e
-baixo.
+Para esse desafio final, alguns elementos são necessários para o aluno conseguir entender
+a lógica do construct:
+1 - Condições (Bloco SE)
+2 - Comparar Variáveis
+Para tanto será feita uma revisão para posteriormente ser lançado o desafio.
 
 .. rubric:: Avaliação
 
@@ -32,14 +30,17 @@ Execução dos exercícios em sala de aula.
 
 .. rubric:: Exercícios de Desafio
 
-**Desafio 1: Criar uma conversa entre personagens**  
-Faça dois personagens enviarem mensagens entre si usando o bloco “Transmitir” e “Quando eu receber”.  
-Programe para que um personagem diga algo, e o outro responda após receber a mensagem.
+**Desafio 1: Criar uma condição simples**  
+Utilize o bloco SE para criar um programa onde, se uma variável atingir um valor específico,  
+uma ação seja executada (exemplo: mudar a cor de um objeto ou mostrar uma mensagem).
 
-**Desafio 2: Controle completo do personagem com teclado**  
-Programe um personagem para se movimentar em todas as direções (cima, baixo, esquerda, direita) usando as teclas correspondentes.  
-Adicione efeitos visuais, como troca de fantasia ou sons, para cada movimento realizado.
+**Desafio 2: Comparação de variáveis**  
+Programe duas variáveis para serem comparadas.  
+Quando as variáveis forem iguais, execute uma ação (exemplo: desbloquear uma fase ou ativar um efeito).
 
+**Desafio 3: Combinação de condições e variáveis**  
+Crie um cenário onde múltiplas condições devem ser atendidas para uma ação ocorrer.  
+Por exemplo, se variável A for maior que 10 **e** variável B for igual a 5, então o personagem ganha um bônus.
 
 .. rubric:: Bibliografia
 

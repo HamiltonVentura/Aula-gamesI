@@ -1,14 +1,16 @@
 \babel@toc {brazil}{}\relax 
 \contentsline {chapter}{\numberline {1}Introdução ao Curso}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Introdução a lógica de programação com jogos}{3}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Execução dos exercícios em sala de aula.}{4}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Scratch \sphinxhyphen {} introdução ao código}{5}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Scratch \sphinxhyphen {} Eventos de interação}{7}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Introdução ao Scratch: Variáveis}{9}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Construct: Introdução e navegação}{11}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Construct: Animação de personagens}{13}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Construct: Animação de Personagem II}{15}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Construct: Tile Maps}{17}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Construct: Elementos de jogo \sphinxhyphen {} Barra de vida, Moedas (status)}{19}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Construct: Aula de Revisão}{21}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Construct: Hierarquia e Camadas}{23}{chapter.11}%
+\contentsline {section}{\numberline {1.2}Exercício Aula 1 \sphinxhyphen {} Introdução}{5}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Introdução ao Defold}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Aula sobre Engine Defold}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Exercício Aula 2 \sphinxhyphen {} Introdução ao Defold}{9}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Scratch \sphinxhyphen {} introdução ao código}{11}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Scratch \sphinxhyphen {} Eventos de interação}{13}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Introdução ao Scratch: Variáveis}{15}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Construct: Introdução e navegação}{17}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Construct: Animação de personagens}{19}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Construct: Animação de Personagem II}{21}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Construct: Tile Maps}{23}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Construct: Elementos de jogo \sphinxhyphen {} Barra de vida, Moedas (status)}{25}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Construct: Aula de Revisão}{27}{chapter.11}%

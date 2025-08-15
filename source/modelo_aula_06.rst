@@ -1,5 +1,5 @@
-Construct: Introdução e navegação
-=================================
+Construct: Animação de personagens
+==================================
 
 **Tempo de Aula:** 1h30min
 
@@ -13,29 +13,38 @@ Expositiva, aplicação de exercícios / solução de problemas.
 
 .. rubric:: Conteúdo Programático
 
-- Navegação na plataforma.
-- Criação de um novo projeto
-- Testar jogos da plataforma
+Compreender a área de edição de sprites e animações.
+Conhecer a lista e configuração de animação.
+Criação de Frames dentro da Ferramenta.
+Zonas de Colisão no jogo ( Habilitar no Layout )
+Pontos Âncoras da imagem( pontos de imagem )
 
 .. rubric:: Descrição
 
-A navegação é um ponto crítico que deve ser sempre relembrado, pois muitos alunos se
-perdem dentro da área da Engine, por falta de entender esse conceito de navegação.
-Criação de personagem e do cenário no chão. Adicionar os comportamentos .
-No decorrer dessa aula deve-se deixar os alunos explorarem para desenhar o próprio
-personagem e adicionar comportamentos.
+Iniciar um projeto do zero, buscando através da repetição fazer o aluno decorar os
+caminhos, criar personagem simples no início, e animá-lo a partir dos frames.
+É importante entender as zonas de colisão, pois com base nelas o personagem irá interagir
+com o ambiente, o chão ou outros elementos.
+Nessa aula é importante frisar as animações, e configurações.
 
 .. rubric:: Avaliação
 
-Execução dos exercícios em sala de aula. 
+Execução dos exercícios em sala de aula.
 
-.. rubric:: Observação 
-    
-Pode ser feito uma análise para verificar se compensar ter todos os arquivos em uma
-pasta para o aluno, assim ele trabalha diretamente com a ferramenta sem se preocupar em
-baixar as imagens ou caçalas na internet. Isso acaba levando muito tempo de uma aula 30
-% na escolha e pesquisa. Sendo assim deixaremos uma pasta com personagens GIF e jpg
-Cenários e etc.
+.. rubric:: Exercícios de Desafio
+
+**Desafio 1: Criar uma animação personalizada**  
+Utilize a ferramenta de edição de sprites para criar uma animação com pelo menos 5 frames diferentes.  
+Configure a velocidade da animação para que o movimento fique natural e fluido.
+
+**Desafio 2: Ajustar zonas de colisão**  
+No seu personagem animado, habilite e ajuste as zonas de colisão para que elas estejam alinhadas corretamente com a forma do sprite em cada frame.  
+Teste a interação do personagem com o chão ou outros objetos para garantir que as colisões funcionem adequadamente.
+
+**Desafio 3: Manipular pontos âncoras da imagem**  
+Experimente alterar os pontos âncoras do sprite para entender como eles afetam a posição e o comportamento da animação.  
+Crie um pequeno projeto onde o personagem gira ou se move com base nos pontos âncoras definidos.
+
 
 .. rubric:: Bibliografia
 

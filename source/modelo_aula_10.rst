@@ -1,5 +1,5 @@
-Construct: Elementos de jogo - Barra de vida, Moedas (status)
-==============================================================
+Construct: Aula de Revisão
+==========================
 
 **Tempo de Aula:** 1h30min
 
@@ -13,17 +13,12 @@ Expositiva, aplicação de exercícios / solução de problemas.
 
 .. rubric:: Conteúdo Programático
 
-Criar barra de vida manualmente
-Criar um indicador de moedas.
-Conceito de Camadas
+REFORÇAR CONTEÚDOS DAS AULAS PASSADAS.
 
 .. rubric:: Descrição
 
-Ensinar o aluno a Construir uma barra de vida, que demonstre a quantidade de vida
-que o personagem possui, lembrando que é necessário criar variáveis globais que
-armazenam a quantidade de vida.
-Ativar a camada Paralax, 0,0 para que o personagem ao se movimentar seja seguido pela
-quantidade de vida.
+Reforço dos conteúdos passados, visando levar o aluno a relembrar os principais
+conceitos das aulas.
 
 .. rubric:: Avaliação
 

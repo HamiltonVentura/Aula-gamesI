@@ -7,7 +7,7 @@
     <meta name="dtb:maxPageNumber" content="0"/>
   </head>
   <docTitle>
-    <text>Lógica de programação</text>
+    <text>Lógica de programação com Jogos</text>
   </docTitle>
   <navMap>    
     <navPoint id="navPoint1" playOrder="1">
@@ -18,77 +18,83 @@
     </navPoint>
     <navPoint id="navPoint2" playOrder="2">
       <navLabel>
-        <text>Introdução ao Scratch, navegação e criação de projeto</text>
+        <text>Introdução ao Curso</text>
       </navLabel>
       <content src="modelo_aula_02.xhtml" />  
       <navPoint id="navPoint3" playOrder="2">
         <navLabel>
-          <text>Introdução ao Scratch, navegação e criação de projeto</text>
+          <text>Introdução ao Curso</text>
         </navLabel>
         <content src="modelo_aula_02.xhtml" />  
       </navPoint>
       <navPoint id="navPoint4" playOrder="3">
         <navLabel>
-          <text>Desafios - Introdução ao Scratch, navegação e criação de projeto</text>
+          <text>Introdução a lógica de programação com jogos</text>
         </navLabel>
-        <content src="modelo_aula_02.xhtml#desafios-introducao-ao-scratch-navegacao-e-criacao-de-projeto" />  
+        <content src="modelo_aula_02.xhtml#introducao-a-logica-de-programacao-com-jogos" />  
+      </navPoint>
+      <navPoint id="navPoint5" playOrder="4">
+        <navLabel>
+          <text>Exercício Aula 1 - Introdução</text>
+        </navLabel>
+        <content src="modelo_aula_02.xhtml#exercicio-aula-1-introducao" />  
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint5" playOrder="4">
+    <navPoint id="navPoint6" playOrder="5">
       <navLabel>
         <text>Scratch - introdução ao código</text>
       </navLabel>
       <content src="modelo_aula_03.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint6" playOrder="5">
+    <navPoint id="navPoint7" playOrder="6">
       <navLabel>
         <text>Scratch - Eventos de interação</text>
       </navLabel>
       <content src="modelo_aula_04.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint7" playOrder="6">
+    <navPoint id="navPoint8" playOrder="7">
       <navLabel>
         <text>Introdução ao Scratch: Variáveis</text>
       </navLabel>
       <content src="modelo_aula_05.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint8" playOrder="7">
+    <navPoint id="navPoint9" playOrder="8">
       <navLabel>
         <text>Construct: Introdução e navegação</text>
       </navLabel>
       <content src="modelo_aula_06.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint9" playOrder="8">
+    <navPoint id="navPoint10" playOrder="9">
       <navLabel>
         <text>Construct: Animação de personagens</text>
       </navLabel>
       <content src="modelo_aula_07.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint10" playOrder="9">
+    <navPoint id="navPoint11" playOrder="10">
       <navLabel>
         <text>Construct: Animação de Personagem II</text>
       </navLabel>
       <content src="modelo_aula_08.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint11" playOrder="10">
+    <navPoint id="navPoint12" playOrder="11">
       <navLabel>
         <text>Construct: Tile Maps</text>
       </navLabel>
       <content src="modelo_aula_09.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint12" playOrder="11">
+    <navPoint id="navPoint13" playOrder="12">
       <navLabel>
         <text>Construct: Elementos de jogo - Barra de vida, Moedas (status)</text>
       </navLabel>
       <content src="modelo_aula_10.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint13" playOrder="12">
+    <navPoint id="navPoint14" playOrder="13">
       <navLabel>
         <text>Construct: Aula de Revisão</text>
       </navLabel>
       <content src="modelo_aula_11.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint14" playOrder="13">
+    <navPoint id="navPoint15" playOrder="14">
       <navLabel>
         <text>Construct: Hierarquia e Camadas</text>
       </navLabel>

@@ -1,14 +1,10 @@
-.. Introdução a lógica documentation master file, created by
-   sphinx-quickstart on Thu Aug  7 23:52:47 2025.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 Introdução à Lógica de Programação
 ==================================
 
-.. rubric:: Está preparado?
+.. rubric:: Introdução
 
-Bem-vindo(a) à *introdução à lógica de programação*. Aqui reúno um compêndio de exercícios e 
+O Curso *introdução à lógica de programação*, reúne um compêndio de exercícios e 
 explicações com ferramentas conhecidas que podem facilitar a criança, adolescente ou adulto na 
 introdução ao mundo da programação. Possuímos atualmente a versão web e PDF, caso tenha interesse.
 
@@ -40,7 +36,10 @@ Aprender a utilizar o básico do sistema operacional, ajudando a introduzir os a
 informática básica, promovendo um melhor aprendizado nas ferramentas propostas
 no curso (que exigem conhecimento básico).
 
-Aprender a desenvolver soluções na linguagem lua:  
+Aprender a desenvolver soluções na linguagem `lua`_ . 
+
+.. _lua: https://www.lua.org/
+
 Os princípios essenciais a serem aprendidos: condições, laços, variáveis,
 acumuladores, eventos, transmissão de informação, edição de imagens dos
 personagens. Utilização livre e espontânea da ferramenta.
@@ -59,6 +58,7 @@ ativar animações em determinadas situações, trabalhando com eventos.
    :maxdepth: 2
    :caption: Contents:
 
+   modelo_aula_01   
    modelo_aula_02
    modelo_aula_03
    modelo_aula_04
@@ -69,4 +69,3 @@ ativar animações em determinadas situações, trabalhando com eventos.
    modelo_aula_09
    modelo_aula_10
    modelo_aula_11
-   modelo_aula_12

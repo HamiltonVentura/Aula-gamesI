@@ -1,5 +1,5 @@
-Construct: Tile Maps
-====================
+Construct: Elementos de jogo - Barra de vida, Moedas (status)
+==============================================================
 
 **Tempo de Aula:** 1h30min
 
@@ -13,34 +13,21 @@ Expositiva, aplicação de exercícios / solução de problemas.
 
 .. rubric:: Conteúdo Programático
 
-Criar cenários baseados em tilemaps prontos.(Fornecidos pela equipe)
-Trabalhar mudança de cenário.
+Criar barra de vida manualmente
+Criar um indicador de moedas.
+Conceito de Camadas
 
 .. rubric:: Descrição
 
-Ensinar ao aluno a utilizar o mosaico para criação de cenários, produzindo pelo
-menos dois níveis em um jogo no estilo plataforma, um portal deve levar o aluno a outro
-nível.
+Ensinar o aluno a Construir uma barra de vida, que demonstre a quantidade de vida
+que o personagem possui, lembrando que é necessário criar variáveis globais que
+armazenam a quantidade de vida.
+Ativar a camada Paralax, 0,0 para que o personagem ao se movimentar seja seguido pela
+quantidade de vida.
 
 .. rubric:: Avaliação
 
-Execução dos exercícios em sala de aula.  
-Modalidade: presencial.
-
-.. rubric:: Exercícios
-
-**Exercício 1: Criar um cenário básico com tilemap**  
-Utilize os tilemaps fornecidos para montar um cenário inicial para seu jogo.  
-Organize os tiles para formar plataformas e obstáculos básicos.
-
-**Exercício 2: Criar múltiplos níveis**  
-Com base no cenário criado, construa pelo menos dois níveis diferentes usando tilemaps.  
-Cada nível deve ter características distintas, como layout ou dificuldade.
-
-**Exercício 3: Implementar troca de cenário via portal**  
-Adicione um portal no primeiro nível que, ao ser ativado pelo personagem, leva o jogador para o segundo nível.  
-Configure os eventos para que a troca de cenário ocorra de forma suave e funcional.
-
+Execução dos exercícios em sala de aula.
 
 .. rubric:: Bibliografia
 

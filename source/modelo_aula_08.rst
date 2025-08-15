@@ -1,5 +1,5 @@
-Construct: Animação de Personagem II
-====================================
+Construct: Tile Maps
+====================
 
 **Tempo de Aula:** 1h30min
 
@@ -13,37 +13,33 @@ Expositiva, aplicação de exercícios / solução de problemas.
 
 .. rubric:: Conteúdo Programático
 
-O aluno aprenderá o que é uma folha de Eventos e como utilizar as condições para
-animar o personagem. Especificamente animar evento de movimentos do
-personagem inserir entradas no layout como teclado ou mouse.
-Espelhamento do Personagem.
+Criar cenários baseados em tilemaps prontos.(Fornecidos pela equipe)
+Trabalhar mudança de cenário.
 
 .. rubric:: Descrição
 
-O aluno deverá criar personagem, o chão do cenário e criar animações do
-personagem, correndo, parado e golpes.
-Cada Lista da animação deverá ser ativada caso alguma condição seja satisfeita.Por
-exemplo: Seta para direita foi apertado, ou barra de espaço.
-Nesse primeiro contato com eventos, ele deverá entender que se trata das mesmas
-condições que existem no Scratch, basta lembrar os alunos.
+Ensinar ao aluno a utilizar o mosaico para criação de cenários, produzindo pelo
+menos dois níveis em um jogo no estilo plataforma, um portal deve levar o aluno a outro
+nível.
 
 .. rubric:: Avaliação
 
-Execução dos exercícios em sala de aula.
+Execução dos exercícios em sala de aula.  
+Modalidade: presencial.
 
-.. rubric:: Exercícios de Desafio
+.. rubric:: Exercícios
 
-**Desafio 1: Animação com múltiplos estados**  
-Crie animações distintas para o personagem: parado, correndo e atacando.  
-Configure a folha de Eventos para que o personagem alterne entre essas animações conforme as teclas pressionadas (exemplo: seta para direita para correr, barra de espaço para ataque).
+**Exercício 1: Criar um cenário básico com tilemap**  
+Utilize os tilemaps fornecidos para montar um cenário inicial para seu jogo.  
+Organize os tiles para formar plataformas e obstáculos básicos.
 
-**Desafio 2: Controle por teclado e mouse**  
-Implemente entradas para que o personagem possa ser controlado tanto pelo teclado (movimentos e ataques) quanto pelo mouse (por exemplo, clique para atacar).  
-Certifique-se de que as animações corretas sejam ativadas para cada ação.
+**Exercício 2: Criar múltiplos níveis**  
+Com base no cenário criado, construa pelo menos dois níveis diferentes usando tilemaps.  
+Cada nível deve ter características distintas, como layout ou dificuldade.
 
-**Desafio 3: Espelhamento do personagem**  
-Configure o personagem para que, ao andar para a esquerda, a imagem seja espelhada horizontalmente, dando a sensação de que ele está virado para o lado correto.  
-Teste a transição entre espelhamento e animações sem causar interrupções visuais.
+**Exercício 3: Implementar troca de cenário via portal**  
+Adicione um portal no primeiro nível que, ao ser ativado pelo personagem, leva o jogador para o segundo nível.  
+Configure os eventos para que a troca de cenário ocorra de forma suave e funcional.
 
 
 .. rubric:: Bibliografia

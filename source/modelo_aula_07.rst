@@ -1,5 +1,5 @@
-Construct: Animação de personagens
-==================================
+Construct: Animação de Personagem II
+====================================
 
 **Tempo de Aula:** 1h30min
 
@@ -13,19 +13,19 @@ Expositiva, aplicação de exercícios / solução de problemas.
 
 .. rubric:: Conteúdo Programático
 
-Compreender a área de edição de sprites e animações.
-Conhecer a lista e configuração de animação.
-Criação de Frames dentro da Ferramenta.
-Zonas de Colisão no jogo ( Habilitar no Layout )
-Pontos Âncoras da imagem( pontos de imagem )
+O aluno aprenderá o que é uma folha de Eventos e como utilizar as condições para
+animar o personagem. Especificamente animar evento de movimentos do
+personagem inserir entradas no layout como teclado ou mouse.
+Espelhamento do Personagem.
 
 .. rubric:: Descrição
 
-Iniciar um projeto do zero, buscando através da repetição fazer o aluno decorar os
-caminhos, criar personagem simples no início, e animá-lo a partir dos frames.
-É importante entender as zonas de colisão, pois com base nelas o personagem irá interagir
-com o ambiente, o chão ou outros elementos.
-Nessa aula é importante frisar as animações, e configurações.
+O aluno deverá criar personagem, o chão do cenário e criar animações do
+personagem, correndo, parado e golpes.
+Cada Lista da animação deverá ser ativada caso alguma condição seja satisfeita.Por
+exemplo: Seta para direita foi apertado, ou barra de espaço.
+Nesse primeiro contato com eventos, ele deverá entender que se trata das mesmas
+condições que existem no Scratch, basta lembrar os alunos.
 
 .. rubric:: Avaliação
 
@@ -33,17 +33,17 @@ Execução dos exercícios em sala de aula.
 
 .. rubric:: Exercícios de Desafio
 
-**Desafio 1: Criar uma animação personalizada**  
-Utilize a ferramenta de edição de sprites para criar uma animação com pelo menos 5 frames diferentes.  
-Configure a velocidade da animação para que o movimento fique natural e fluido.
+**Desafio 1: Animação com múltiplos estados**  
+Crie animações distintas para o personagem: parado, correndo e atacando.  
+Configure a folha de Eventos para que o personagem alterne entre essas animações conforme as teclas pressionadas (exemplo: seta para direita para correr, barra de espaço para ataque).
 
-**Desafio 2: Ajustar zonas de colisão**  
-No seu personagem animado, habilite e ajuste as zonas de colisão para que elas estejam alinhadas corretamente com a forma do sprite em cada frame.  
-Teste a interação do personagem com o chão ou outros objetos para garantir que as colisões funcionem adequadamente.
+**Desafio 2: Controle por teclado e mouse**  
+Implemente entradas para que o personagem possa ser controlado tanto pelo teclado (movimentos e ataques) quanto pelo mouse (por exemplo, clique para atacar).  
+Certifique-se de que as animações corretas sejam ativadas para cada ação.
 
-**Desafio 3: Manipular pontos âncoras da imagem**  
-Experimente alterar os pontos âncoras do sprite para entender como eles afetam a posição e o comportamento da animação.  
-Crie um pequeno projeto onde o personagem gira ou se move com base nos pontos âncoras definidos.
+**Desafio 3: Espelhamento do personagem**  
+Configure o personagem para que, ao andar para a esquerda, a imagem seja espelhada horizontalmente, dando a sensação de que ele está virado para o lado correto.  
+Teste a transição entre espelhamento e animações sem causar interrupções visuais.
 
 
 .. rubric:: Bibliografia
