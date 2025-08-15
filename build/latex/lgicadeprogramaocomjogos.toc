@@ -8,9 +8,9 @@
 \contentsline {chapter}{\numberline {3}Linguagem Lua I \sphinxhyphen {} variáveis e condições}{11}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Linguagem Lua II \sphinxhyphen {} laços de repetição}{15}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Lua III \sphinxhyphen {} Tabelas}{19}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Construct: Introdução e navegação}{21}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Construct: Animação de personagens}{23}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Construct: Animação de Personagem II}{25}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Construct: Tile Maps}{27}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Construct: Elementos de jogo \sphinxhyphen {} Barra de vida, Moedas (status)}{29}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Construct: Aula de Revisão}{31}{chapter.11}%
+\contentsline {chapter}{\numberline {6}Defold: Animações}{23}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Defold: GUI \sphinxhyphen {} e Assets}{27}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Construct: Animação de Personagem II}{29}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Construct: Tile Maps}{31}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Construct: Elementos de jogo \sphinxhyphen {} Barra de vida, Moedas (status)}{33}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Construct: Aula de Revisão}{35}{chapter.11}%

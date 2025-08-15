@@ -53,10 +53,14 @@ Execução dos exercícios em sala de aula.
         print(personagem.nome)   -- Luna
         print(personagem.idade)  -- 10
 
+.. raw:: latex
+
+    \newpage
+    
 .. rubric:: Bibliografia
 
-SCIRRA, L. (2022). Manual Construct.  
-https://www.construct.net/en/make-games/manuals/construct-3
+FOUNDATION, Defold. Defold - Official Homepage - Cross platform game engine. 
+Disponível em: <https://defold.com/>. Acesso em: 25 jun. 2025. 
 
 Rabin, S. (n.d.). Introdução ao desenvolvimento de games (Cengage Le, Vol. 1).  
 https://www.amazon.com.br/Introdução-desenvolvimento-games-Entendendo-universo/dp/852211143X

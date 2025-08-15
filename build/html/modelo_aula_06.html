@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Construct: Introdução e navegação &mdash; documentação Lógica de programação com Jogos 1.0</title>
+  <title>Defold: Animações &mdash; documentação Lógica de programação com Jogos 1.0</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -20,8 +20,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Índice" href="genindex.html" />
     <link rel="search" title="Buscar" href="search.html" />
-    <link rel="next" title="Construct: Animação de personagens" href="modelo_aula_07.html" />
-    <link rel="prev" title="Introdução ao Scratch: Variáveis" href="modelo_aula_05.html" /> 
+    <link rel="next" title="Defold: GUI" href="modelo_aula_07.html" />
+    <link rel="prev" title="Lua III - Tabelas" href="modelo_aula_05.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -45,17 +45,17 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Menu de navegação">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_02.html">Introdução ao Curso</a></li>
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_03.html">Scratch - introdução ao código</a></li>
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_04.html">Scratch - Eventos de interação</a></li>
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_05.html">Introdução ao Scratch: Variáveis</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Construct: Introdução e navegação</a></li>
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_07.html">Construct: Animação de personagens</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_01.html">Introdução ao Curso</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_02.html">Introdução ao Defold</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_03.html">Linguagem Lua I - variáveis e condições</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_04.html">Linguagem Lua II - laços de repetição</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_05.html">Lua III - Tabelas</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Defold: Animações</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_07.html">Defold: GUI</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_08.html">Construct: Animação de Personagem II</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_09.html">Construct: Tile Maps</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_10.html">Construct: Elementos de jogo - Barra de vida, Moedas (status)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_11.html">Construct: Aula de Revisão</a></li>
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_12.html">Construct: Hierarquia e Camadas</a></li>
 </ul>
 
         </div>
@@ -72,7 +72,7 @@
           <div role="navigation" aria-label="Navegação da página">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Construct: Introdução e navegação</li>
+      <li class="breadcrumb-item active">Defold: Animações</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/modelo_aula_06.rst.txt" rel="nofollow"> Ver código-fonte da página</a>
       </li>
@@ -82,36 +82,42 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="construct-introducao-e-navegacao">
-<h1>Construct: Introdução e navegação<a class="headerlink" href="#construct-introducao-e-navegacao" title="Link para este cabeçalho"></a></h1>
+  <section id="defold-animacoes">
+<h1>Defold: Animações<a class="headerlink" href="#defold-animacoes" title="Link para este cabeçalho"></a></h1>
 <p><strong>Tempo de Aula:</strong> 1h30min</p>
 <p class="rubric">Recursos Didáticos</p>
 <p>Projetor, quadro branco, computadores.</p>
 <p class="rubric">Metodologia</p>
-<p>Expositiva, aplicação de exercícios / solução de problemas.</p>
+<ul class="simple">
+<li><p>Expositiva.</p></li>
+<li><p>Exercícios Guiados em programação e operação da Engine.</p></li>
+<li><p>Desafio - Memória Muscular</p></li>
+</ul>
 <p class="rubric">Conteúdo Programático</p>
 <ul class="simple">
-<li><p>Navegação na plataforma.</p></li>
-<li><p>Criação de um novo projeto</p></li>
-<li><p>Testar jogos da plataforma</p></li>
+<li><p>Compreender as funções de animação</p></li>
+<li><p>Aplicar laços, condições as animações</p></li>
+<li><p>Criação de zonas de colizão</p></li>
 </ul>
 <p class="rubric">Descrição</p>
-<p>A navegação é um ponto crítico que deve ser sempre relembrado, pois muitos alunos se
-perdem dentro da área da Engine, por falta de entender esse conceito de navegação.
-Criação de personagem e do cenário no chão. Adicionar os comportamentos .
-No decorrer dessa aula deve-se deixar os alunos explorarem para desenhar o próprio
-personagem e adicionar comportamentos.</p>
+<p>Iniciar um projeto do zero, buscando através da repetição fazer o aluno decorar os
+caminhos, criar personagem simples no início, e animá-lo a partir dos frames. Criar
+Interface Menus.</p>
 <p class="rubric">Avaliação</p>
 <p>Execução dos exercícios em sala de aula.</p>
-<p class="rubric">Observação</p>
-<p>Pode ser feito uma análise para verificar se compensar ter todos os arquivos em uma
-pasta para o aluno, assim ele trabalha diretamente com a ferramenta sem se preocupar em
-baixar as imagens ou caçalas na internet. Isso acaba levando muito tempo de uma aula 30
-% na escolha e pesquisa. Sendo assim deixaremos uma pasta com personagens GIF e jpg
-Cenários e etc.</p>
+<p class="rubric">Exercícios de Desafio</p>
+<p><strong>Desafio 1: Criar uma animação personalizada</strong>
+Utilize a ferramenta de edição de sprites para criar uma animação com pelo menos 5 frames diferentes.
+Configure a velocidade da animação para que o movimento fique natural e fluido.</p>
+<p><strong>Desafio 2: Ajustar zonas de colisão</strong>
+No seu personagem animado, habilite e ajuste as zonas de colisão para que elas estejam alinhadas corretamente com a forma do sprite em cada frame.
+Teste a interação do personagem com o chão ou outros objetos para garantir que as colisões funcionem adequadamente.</p>
+<p><strong>Desafio 3: Manipular pontos âncoras da imagem</strong>
+Experimente alterar os pontos âncoras do sprite para entender como eles afetam a posição e o comportamento da animação.
+Crie um pequeno projeto onde o personagem gira ou se move com base nos pontos âncoras definidos.</p>
 <p class="rubric">Bibliografia</p>
-<p>SCIRRA, L. (2022). Manual Construct.
-<a class="reference external" href="https://www.construct.net/en/make-games/manuals/construct-3">https://www.construct.net/en/make-games/manuals/construct-3</a></p>
+<p>FOUNDATION, Defold. Defold - Official Homepage - Cross platform game engine.
+Disponível em: &lt;<a class="reference external" href="https://defold.com/">https://defold.com/</a>&gt;. Acesso em: 25 jun. 2025.</p>
 <p>Rabin, S. (n.d.). Introdução ao desenvolvimento de games (Cengage Le, Vol. 1).
 <a class="reference external" href="https://www.amazon.com.br">https://www.amazon.com.br</a>/Introdução-desenvolvimento-games-Entendendo-universo/dp/852211143X</p>
 <p>Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Universo d).
@@ -122,8 +128,8 @@ Cenários e etc.</p>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Rodapé">
-        <a href="modelo_aula_05.html" class="btn btn-neutral float-left" title="Introdução ao Scratch: Variáveis" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
-        <a href="modelo_aula_07.html" class="btn btn-neutral float-right" title="Construct: Animação de personagens" accesskey="n" rel="next">Próximo <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="modelo_aula_05.html" class="btn btn-neutral float-left" title="Lua III - Tabelas" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="modelo_aula_07.html" class="btn btn-neutral float-right" title="Defold: GUI" accesskey="n" rel="next">Próximo <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
