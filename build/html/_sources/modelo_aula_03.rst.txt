@@ -1,4 +1,4 @@
-Linguagem Lua
+Linguagem Lua I - variáveis e condições
 ==============================
 
 **Tempo de Aula:** 1h30min
@@ -35,14 +35,49 @@ exercícios na linguagem lua. Essa aula pode ser utilizada para focar exclusivam
 conceitos da linguagem lua.
 
 .. code-block:: lua 
-    :caption: Exemplo de condições 
+    :caption: Exemplo de Entrada
 
-        if VIDA_INIMIGO == 0 then
-            print("O inimigo foi derrotado!") 
-        elseif VIDA_PLAYER == 0 then
-            print("O jogador foi derrotado!")
+        print("Digite o jogo de celular:")
+        nome = io.read()
+        print("Digite a nota")
+        nota = io.read()
+        print("digite a descricao")
+        descricao = io.read()
+        print("O nome do jogo e :",nome, " e a nota dele e ",nota)
+        print("Descricao : ",descricao)
+
+.. code-block:: lua 
+    :caption: Exemplo de variáveis
+
+        local idade = 20
+
+        if idade >= 18 then
+            print("Você é maior de idade.")
         else
-            print("A batalha continua!")
+            print("Você é menor de idade.")
+        end
+
+.. code-block:: lua 
+    :caption: Exemplo operadores
+
+        local idade = 20
+
+        if idade ~= 18 then
+            print("Você é maior de idade.")
+        else
+            print("Você é menor de idade.")
+        end
+
+.. code-block:: lua 
+    :caption: Exemplo de operadores aritméticos
+
+        local idade = 20
+        local nome = "Seu nome"
+
+        if idade >= 18 then
+            print("Você é maior de idade.",nome)
+        else
+            print("Você é menor de idade.",nome)
         end
 
 .. raw:: latex

@@ -1,4 +1,4 @@
-Linguagem Lua II
+Linguagem Lua II - laços de repetição
 ================================
 
 **Tempo de Aula:** 1h30min
@@ -26,9 +26,30 @@ escripts, Serão entregues exercícios que ja utilizam de determinadas funções
 
 .. Nesse caso vou ter que desenvolver os exercíciso de maneira gradual para não assustar.
 
-.. rubric:: Avaliação
+.. code-block:: lua 
+    :caption: Exemplo de laço for
 
-Execução dos exercícios em sala de aula.
+        for i=0, 10 do 
+        print("status",i)
+        end
+
+.. code-block:: lua 
+    :caption: Exemplo de laço while
+
+        local i = 1
+
+        while i <= 5 do
+            print(i)
+            i = i + 1
+        end
+
+.. code-block:: lua 
+    :caption: Exemplo de função
+
+        function idade(d)
+            print(d)
+        end
+        idade(20)
 
 .. raw:: latex
 

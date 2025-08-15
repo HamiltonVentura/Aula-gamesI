@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Introdução ao Scratch: Variáveis &mdash; documentação Lógica de programação com Jogos 1.0</title>
+  <title>Lua III - Tabelas &mdash; documentação Lógica de programação com Jogos 1.0</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -21,7 +21,7 @@
     <link rel="index" title="Índice" href="genindex.html" />
     <link rel="search" title="Buscar" href="search.html" />
     <link rel="next" title="Construct: Introdução e navegação" href="modelo_aula_06.html" />
-    <link rel="prev" title="Scratch - Eventos de interação" href="modelo_aula_04.html" /> 
+    <link rel="prev" title="Linguagem Lua II - laços de repetição" href="modelo_aula_04.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -45,17 +45,17 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Menu de navegação">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_02.html">Introdução ao Curso</a></li>
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_03.html">Scratch - introdução ao código</a></li>
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_04.html">Scratch - Eventos de interação</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Introdução ao Scratch: Variáveis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_01.html">Introdução ao Curso</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_02.html">Introdução ao Defold</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_03.html">Linguagem Lua I - variáveis e condições</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_04.html">Linguagem Lua II - laços de repetição</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Lua III - Tabelas</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_06.html">Construct: Introdução e navegação</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_07.html">Construct: Animação de personagens</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_08.html">Construct: Animação de Personagem II</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_09.html">Construct: Tile Maps</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_10.html">Construct: Elementos de jogo - Barra de vida, Moedas (status)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_11.html">Construct: Aula de Revisão</a></li>
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_12.html">Construct: Hierarquia e Camadas</a></li>
 </ul>
 
         </div>
@@ -72,7 +72,7 @@
           <div role="navigation" aria-label="Navegação da página">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Introdução ao Scratch: Variáveis</li>
+      <li class="breadcrumb-item active">Lua III - Tabelas</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/modelo_aula_05.rst.txt" rel="nofollow"> Ver código-fonte da página</a>
       </li>
@@ -82,34 +82,42 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="introducao-ao-scratch-variaveis">
-<h1>Introdução ao Scratch: Variáveis<a class="headerlink" href="#introducao-ao-scratch-variaveis" title="Link para este cabeçalho"></a></h1>
+  <section id="lua-iii-tabelas">
+<h1>Lua III - Tabelas<a class="headerlink" href="#lua-iii-tabelas" title="Link para este cabeçalho"></a></h1>
 <p><strong>Tempo de Aula:</strong> 1h30min</p>
 <p class="rubric">Recursos Didáticos</p>
 <p>Projetor, quadro branco, computadores.</p>
 <p class="rubric">Metodologia</p>
-<p>Expositiva, aplicação de exercícios / solução de problemas.</p>
+<ul class="simple">
+<li><p>Expositiva.</p></li>
+<li><p>Exercícios Guiados em programação e operação da Engine.</p></li>
+<li><p>Desafio - Memória Muscular</p></li>
+</ul>
 <p class="rubric">Conteúdo Programático</p>
-<p>Utilizar as estruturas básicas do Scratch para um desafio final utilizando variáveis
-para contar a quantidade de moedas recolhidas pelo gatinho.</p>
+<ul class="simple">
+<li><p>Navegação na plataforma.</p></li>
+<li><p>Aplicação do conceito de tabelas no Defold.</p></li>
+<li><p>Exercícios Dinãmicos.</p></li>
+</ul>
 <p class="rubric">Descrição</p>
-<p>Para esse desafio final, alguns elementos são necessários para o aluno conseguir entender
-a lógica do construct:
-1 - Condições (Bloco SE)
-2 - Comparar Variáveis
-Para tanto será feita uma revisão para posteriormente ser lançado o desafio.</p>
+<p>Utilizar os conceitos das aulas anteriores para aplicar no Defold
+com exemplos mais complexos.</p>
 <p class="rubric">Avaliação</p>
 <p>Execução dos exercícios em sala de aula.</p>
-<p class="rubric">Exercícios de Desafio</p>
-<p><strong>Desafio 1: Criar uma condição simples</strong>
-Utilize o bloco SE para criar um programa onde, se uma variável atingir um valor específico,
-uma ação seja executada (exemplo: mudar a cor de um objeto ou mostrar uma mensagem).</p>
-<p><strong>Desafio 2: Comparação de variáveis</strong>
-Programe duas variáveis para serem comparadas.
-Quando as variáveis forem iguais, execute uma ação (exemplo: desbloquear uma fase ou ativar um efeito).</p>
-<p><strong>Desafio 3: Combinação de condições e variáveis</strong>
-Crie um cenário onde múltiplas condições devem ser atendidas para uma ação ocorrer.
-Por exemplo, se variável A for maior que 10 <strong>e</strong> variável B for igual a 5, então o personagem ganha um bônus.</p>
+<div class="literal-block-wrapper docutils container" id="id1">
+<div class="code-block-caption"><span class="caption-text">Exemplo de tabelas</span><a class="headerlink" href="#id1" title="Link para este código"></a></div>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="w">    </span><span class="c1">-- Criando uma caixa vazia</span>
+<span class="w">    </span><span class="nv">meu_bau</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{}</span>
+
+<span class="w">    </span><span class="c1">-- Colocando coisas dentro</span>
+<span class="w">    </span><span class="nv">meu_bau</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;Bola&quot;</span>
+<span class="w">    </span><span class="nv">meu_bau</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;Carrinho&quot;</span>
+<span class="w">    </span><span class="nv">meu_bau</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;Boneca&quot;</span>
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="nv">meu_bau</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span><span class="w">  </span><span class="c1">-- Vai mostrar: Bola</span>
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="nv">meu_bau</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span><span class="w">  </span><span class="c1">-- Vai mostrar: Boneca</span>
+</pre></div>
+</div>
+</div>
 <p class="rubric">Bibliografia</p>
 <p>SCIRRA, L. (2022). Manual Construct.
 <a class="reference external" href="https://www.construct.net/en/make-games/manuals/construct-3">https://www.construct.net/en/make-games/manuals/construct-3</a></p>
@@ -123,7 +131,7 @@ Por exemplo, se variável A for maior que 10 <strong>e</strong> variável B for 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Rodapé">
-        <a href="modelo_aula_04.html" class="btn btn-neutral float-left" title="Scratch - Eventos de interação" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="modelo_aula_04.html" class="btn btn-neutral float-left" title="Linguagem Lua II - laços de repetição" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
         <a href="modelo_aula_06.html" class="btn btn-neutral float-right" title="Construct: Introdução e navegação" accesskey="n" rel="next">Próximo <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

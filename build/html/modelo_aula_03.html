@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Linguagem Lua &mdash; documentação Lógica de programação com Jogos 1.0</title>
+  <title>Linguagem Lua I - variáveis e condições &mdash; documentação Lógica de programação com Jogos 1.0</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -20,7 +20,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Índice" href="genindex.html" />
     <link rel="search" title="Buscar" href="search.html" />
-    <link rel="next" title="Linguagem Lua II" href="modelo_aula_04.html" />
+    <link rel="next" title="Linguagem Lua II - laços de repetição" href="modelo_aula_04.html" />
     <link rel="prev" title="Introdução ao Defold" href="modelo_aula_02.html" /> 
 </head>
 
@@ -47,9 +47,9 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_01.html">Introdução ao Curso</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_02.html">Introdução ao Defold</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Linguagem Lua</a></li>
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_04.html">Linguagem Lua II</a></li>
-<li class="toctree-l1"><a class="reference internal" href="modelo_aula_05.html">Introdução ao Scratch: Variáveis</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Linguagem Lua I - variáveis e condições</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_04.html">Linguagem Lua II - laços de repetição</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelo_aula_05.html">Lua III - Tabelas</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_06.html">Construct: Introdução e navegação</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_07.html">Construct: Animação de personagens</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modelo_aula_08.html">Construct: Animação de Personagem II</a></li>
@@ -72,7 +72,7 @@
           <div role="navigation" aria-label="Navegação da página">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Linguagem Lua</li>
+      <li class="breadcrumb-item active">Linguagem Lua I - variáveis e condições</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/modelo_aula_03.rst.txt" rel="nofollow"> Ver código-fonte da página</a>
       </li>
@@ -82,8 +82,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="linguagem-lua">
-<h1>Linguagem Lua<a class="headerlink" href="#linguagem-lua" title="Link para este cabeçalho"></a></h1>
+  <section id="linguagem-lua-i-variaveis-e-condicoes">
+<h1>Linguagem Lua I - variáveis e condições<a class="headerlink" href="#linguagem-lua-i-variaveis-e-condicoes" title="Link para este cabeçalho"></a></h1>
 <p><strong>Tempo de Aula:</strong> 1h30min</p>
 <p class="rubric">Recursos Didáticos</p>
 <p>Projetor, quadro branco, computadores.</p>
@@ -113,13 +113,51 @@
 exercícios na linguagem lua. Essa aula pode ser utilizada para focar exclusivamente nas funções e
 conceitos da linguagem lua.</p>
 <div class="literal-block-wrapper docutils container" id="id1">
-<div class="code-block-caption"><span class="caption-text">Exemplo de condições</span><a class="headerlink" href="#id1" title="Link para este código"></a></div>
-<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="w">    </span><span class="kr">if</span><span class="w"> </span><span class="nv">VIDA_INIMIGO</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="kr">then</span>
-<span class="w">        </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;O inimigo foi derrotado!&quot;</span><span class="p">)</span>
-<span class="w">    </span><span class="kr">elseif</span><span class="w"> </span><span class="nv">VIDA_PLAYER</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="kr">then</span>
-<span class="w">        </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;O jogador foi derrotado!&quot;</span><span class="p">)</span>
+<div class="code-block-caption"><span class="caption-text">Exemplo de Entrada</span><a class="headerlink" href="#id1" title="Link para este código"></a></div>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Digite o jogo de celular:&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="nv">nome</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">io.read</span><span class="p">()</span>
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Digite a nota&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="nv">nota</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">io.read</span><span class="p">()</span>
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;digite a descricao&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="nv">descricao</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">io.read</span><span class="p">()</span>
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;O nome do jogo e :&quot;</span><span class="p">,</span><span class="nv">nome</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot; e a nota dele e &quot;</span><span class="p">,</span><span class="nv">nota</span><span class="p">)</span>
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Descricao : &quot;</span><span class="p">,</span><span class="nv">descricao</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id2">
+<div class="code-block-caption"><span class="caption-text">Exemplo de variáveis</span><a class="headerlink" href="#id2" title="Link para este código"></a></div>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">idade</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20</span>
+
+<span class="w">    </span><span class="kr">if</span><span class="w"> </span><span class="nv">idade</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">18</span><span class="w"> </span><span class="kr">then</span>
+<span class="w">        </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Você é maior de idade.&quot;</span><span class="p">)</span>
 <span class="w">    </span><span class="kr">else</span>
-<span class="w">        </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;A batalha continua!&quot;</span><span class="p">)</span>
+<span class="w">        </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Você é menor de idade.&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">end</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id3">
+<div class="code-block-caption"><span class="caption-text">Exemplo operadores</span><a class="headerlink" href="#id3" title="Link para este código"></a></div>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">idade</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20</span>
+
+<span class="w">    </span><span class="kr">if</span><span class="w"> </span><span class="nv">idade</span><span class="w"> </span><span class="o">~=</span><span class="w"> </span><span class="mi">18</span><span class="w"> </span><span class="kr">then</span>
+<span class="w">        </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Você é maior de idade.&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">else</span>
+<span class="w">        </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Você é menor de idade.&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">end</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id4">
+<div class="code-block-caption"><span class="caption-text">Exemplo de operadores aritméticos</span><a class="headerlink" href="#id4" title="Link para este código"></a></div>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">idade</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20</span>
+<span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">nome</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;Seu nome&quot;</span>
+
+<span class="w">    </span><span class="kr">if</span><span class="w"> </span><span class="nv">idade</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">18</span><span class="w"> </span><span class="kr">then</span>
+<span class="w">        </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Você é maior de idade.&quot;</span><span class="p">,</span><span class="nv">nome</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">else</span>
+<span class="w">        </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Você é menor de idade.&quot;</span><span class="p">,</span><span class="nv">nome</span><span class="p">)</span>
 <span class="w">    </span><span class="kr">end</span>
 </pre></div>
 </div>
@@ -138,7 +176,7 @@ Disponível em: &lt;<a class="reference external" href="https://defold.com/">htt
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Rodapé">
         <a href="modelo_aula_02.html" class="btn btn-neutral float-left" title="Introdução ao Defold" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
-        <a href="modelo_aula_04.html" class="btn btn-neutral float-right" title="Linguagem Lua II" accesskey="n" rel="next">Próximo <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="modelo_aula_04.html" class="btn btn-neutral float-right" title="Linguagem Lua II - laços de repetição" accesskey="n" rel="next">Próximo <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

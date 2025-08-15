@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex lgicadeprogramaocomjogos.idx"] 1755199079 "lgicadeprogramaocomjogos.idx" "lgicadeprogramaocomjogos.ind" "lgicadeprogramaocomjogos" 1755218990 0
-  "lgicadeprogramaocomjogos.idx" 1755218988 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex lgicadeprogramaocomjogos.idx"] 1755199079 "lgicadeprogramaocomjogos.idx" "lgicadeprogramaocomjogos.ind" "lgicadeprogramaocomjogos" 1755253956 0
+  "lgicadeprogramaocomjogos.idx" 1755253955 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "lgicadeprogramaocomjogos.ilg"
   "lgicadeprogramaocomjogos.ind"
   (rewritten before read)
-["pdflatex"] 1755218987 "lgicadeprogramaocomjogos.tex" "lgicadeprogramaocomjogos.pdf" "lgicadeprogramaocomjogos" 1755218990 0
+["pdflatex"] 1755253954 "lgicadeprogramaocomjogos.tex" "lgicadeprogramaocomjogos.pdf" "lgicadeprogramaocomjogos" 1755253956 0
   "/etc/texmf/web2c/texmf.cnf" 1741021715 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -23,6 +23,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xbtt.tfm" 1136768653 1436 f00b2a275be56a8355f5c3b07a5a7a4c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm" 1136768653 1384 8943063000d26272532f74ca134dfecd ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xttsl.tfm" 1136768653 1624 fb8f48c6308ace0a799f9278aba03e18 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb" 1136849748 26580 8886cc7827569e05fd10df25f221aef6 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb" 1136849748 26301 f08b3c26ea42c3177a262c2ac37d6a91 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -150,13 +151,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1741487924 4623455 fa0568a71dd9a288d6c226ee477506c6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1741488028 7881451 cdc3ba596ce36ecc1453881f6b10532c ""
-  "lgicadeprogramaocomjogos.aux" 1755218989 7336 5a3d325bf9f344d14318db1f8dacc27b "pdflatex"
+  "lgicadeprogramaocomjogos.aux" 1755253956 9383 050addeabd8c449affd5f05aa4e5ca10 "pdflatex"
   "lgicadeprogramaocomjogos.ind" 1755199079 0 d41d8cd98f00b204e9800998ecf8427e "makeindex lgicadeprogramaocomjogos.idx"
-  "lgicadeprogramaocomjogos.out" 1755218989 3173 45f01b6f8d110911ea64009a2cdac003 "pdflatex"
-  "lgicadeprogramaocomjogos.tex" 1755218987 39082 f9e0416536982978cab939c7c19c9e84 ""
-  "lgicadeprogramaocomjogos.toc" 1755218989 1416 702dca2940c3078fa754b643607fef81 "pdflatex"
+  "lgicadeprogramaocomjogos.out" 1755253956 3369 98edcd0c8ce39b3927a94fb17d7224e5 "pdflatex"
+  "lgicadeprogramaocomjogos.tex" 1755253951 44047 5407903120620af8eac4f786c7c3e113 ""
+  "lgicadeprogramaocomjogos.toc" 1755253956 1496 0a373f4569801aa8520e901def7360cb "pdflatex"
   "sphinx.sty" 1754622358 54203 ee7fe875437470f5328ee20661bb9f1d ""
-  "sphinxhighlight.sty" 1755218987 7553 83fb52292c17957d9f4aadcb28c57a87 ""
+  "sphinxhighlight.sty" 1755253951 7553 83fb52292c17957d9f4aadcb28c57a87 ""
   "sphinxlatexadmonitions.sty" 1754622358 19111 5e67a0f91439018bceb7cadf319345e6 ""
   "sphinxlatexcontainers.sty" 1754622358 900 d61f923db071a7b54d3cee8a1e6935d3 ""
   "sphinxlatexgraphics.sty" 1754622358 4918 c9266041d02bc615d54b890e96e3acd3 ""
@@ -171,7 +172,7 @@
   "sphinxlatexstyletext.sty" 1754622358 6759 9e932c65374cfb62686485d331bc975c ""
   "sphinxlatextables.sty" 1754622358 57643 7f1013c2fa11942370d867527bdda568 ""
   "sphinxmanual.cls" 1754622358 4241 7b0d7a37df7b5715fb0dbd585c52ecdb ""
-  "sphinxmessages.sty" 1755218987 747 a997f9d954d71097177ba4ec6daa8c90 ""
+  "sphinxmessages.sty" 1755253951 747 a997f9d954d71097177ba4ec6daa8c90 ""
   "sphinxoptionsgeometry.sty" 1754622358 2060 6c27b3eba37bde592ae8908ab2c1ac0f ""
   "sphinxoptionshyperref.sty" 1754622358 1093 e468489bae7631a7f387b4b0f7bc15d4 ""
   "sphinxpackageboxes.sty" 1754622358 36106 1be2053eb1cb9b083b3a75e3657bcb24 ""

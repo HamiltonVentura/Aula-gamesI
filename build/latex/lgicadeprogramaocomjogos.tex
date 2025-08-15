@@ -583,8 +583,8 @@ Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Unive
 \sphinxstepscope
 
 
-\chapter{Linguagem Lua}
-\label{\detokenize{modelo_aula_03:linguagem-lua}}\label{\detokenize{modelo_aula_03::doc}}
+\chapter{Linguagem Lua I \sphinxhyphen{} variáveis e condições}
+\label{\detokenize{modelo_aula_03:linguagem-lua-i-variaveis-e-condicoes}}\label{\detokenize{modelo_aula_03::doc}}
 \sphinxAtStartPar
 \sphinxstylestrong{Tempo de Aula:} 1h30min
 \subsubsection*{Recursos Didáticos}
@@ -654,15 +654,50 @@ Entender conceito de variável e função.
 Deve\sphinxhyphen{}se gastar pelo menos 20 a 30 minutos reforçando os conteúdos com alguns
 exercícios na linguagem lua. Essa aula pode ser utilizada para focar exclusivamente nas funções e
 conceitos da linguagem lua.
-\sphinxSetupCaptionForVerbatim{Exemplo de condições}
+\sphinxSetupCaptionForVerbatim{Exemplo de Entrada}
 \def\sphinxLiteralBlockLabel{\label{\detokenize{modelo_aula_03:id1}}}
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
-\PYG{+w}{    }\PYG{k+kr}{if}\PYG{+w}{ }\PYG{n+nv}{VIDA\PYGZus{}INIMIGO}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{+w}{ }\PYG{k+kr}{then}
-\PYG{+w}{        }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{O inimigo foi derrotado!}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
-\PYG{+w}{    }\PYG{k+kr}{elseif}\PYG{+w}{ }\PYG{n+nv}{VIDA\PYGZus{}PLAYER}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{+w}{ }\PYG{k+kr}{then}
-\PYG{+w}{        }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{O jogador foi derrotado!}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Digite o jogo de celular:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nv}{nome}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nb}{io.read}\PYG{p}{()}
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Digite a nota}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nv}{nota}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nb}{io.read}\PYG{p}{()}
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{digite a descricao}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nv}{descricao}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nb}{io.read}\PYG{p}{()}
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{O nome do jogo e :}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}\PYG{n+nv}{nome}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{ e a nota dele e }\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}\PYG{n+nv}{nota}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Descricao : }\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}\PYG{n+nv}{descricao}\PYG{p}{)}
+\end{sphinxVerbatim}
+\sphinxSetupCaptionForVerbatim{Exemplo de variáveis}
+\def\sphinxLiteralBlockLabel{\label{\detokenize{modelo_aula_03:id2}}}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{k+kd}{local}\PYG{+w}{ }\PYG{n+nv}{idade}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{20}
+
+\PYG{+w}{    }\PYG{k+kr}{if}\PYG{+w}{ }\PYG{n+nv}{idade}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{18}\PYG{+w}{ }\PYG{k+kr}{then}
+\PYG{+w}{        }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Você é maior de idade.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
 \PYG{+w}{    }\PYG{k+kr}{else}
-\PYG{+w}{        }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{A batalha continua!}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{        }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Você é menor de idade.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{k+kr}{end}
+\end{sphinxVerbatim}
+\sphinxSetupCaptionForVerbatim{Exemplo operadores}
+\def\sphinxLiteralBlockLabel{\label{\detokenize{modelo_aula_03:id3}}}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{k+kd}{local}\PYG{+w}{ }\PYG{n+nv}{idade}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{20}
+
+\PYG{+w}{    }\PYG{k+kr}{if}\PYG{+w}{ }\PYG{n+nv}{idade}\PYG{+w}{ }\PYG{o}{\PYGZti{}=}\PYG{+w}{ }\PYG{l+m+mi}{18}\PYG{+w}{ }\PYG{k+kr}{then}
+\PYG{+w}{        }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Você é maior de idade.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{k+kr}{else}
+\PYG{+w}{        }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Você é menor de idade.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{k+kr}{end}
+\end{sphinxVerbatim}
+\sphinxSetupCaptionForVerbatim{Exemplo de operadores aritméticos}
+\def\sphinxLiteralBlockLabel{\label{\detokenize{modelo_aula_03:id4}}}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{k+kd}{local}\PYG{+w}{ }\PYG{n+nv}{idade}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{20}
+\PYG{+w}{    }\PYG{k+kd}{local}\PYG{+w}{ }\PYG{n+nv}{nome}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Seu nome}\PYG{l+s+s2}{\PYGZdq{}}
+
+\PYG{+w}{    }\PYG{k+kr}{if}\PYG{+w}{ }\PYG{n+nv}{idade}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{18}\PYG{+w}{ }\PYG{k+kr}{then}
+\PYG{+w}{        }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Você é maior de idade.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}\PYG{n+nv}{nome}\PYG{p}{)}
+\PYG{+w}{    }\PYG{k+kr}{else}
+\PYG{+w}{        }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Você é menor de idade.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}\PYG{n+nv}{nome}\PYG{p}{)}
 \PYG{+w}{    }\PYG{k+kr}{end}
 \end{sphinxVerbatim}
 
@@ -684,8 +719,8 @@ Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Unive
 \sphinxstepscope
 
 
-\chapter{Linguagem Lua II}
-\label{\detokenize{modelo_aula_04:linguagem-lua-ii}}\label{\detokenize{modelo_aula_04::doc}}
+\chapter{Linguagem Lua II \sphinxhyphen{} laços de repetição}
+\label{\detokenize{modelo_aula_04:linguagem-lua-ii-lacos-de-repeticao}}\label{\detokenize{modelo_aula_04::doc}}
 \sphinxAtStartPar
 \sphinxstylestrong{Tempo de Aula:} 1h30min
 \subsubsection*{Recursos Didáticos}
@@ -727,10 +762,31 @@ Utilização de Tabelas.
 \sphinxAtStartPar
 Para Os Alunos internalizarem bem como é fluxo de funcionamento do Defold com relação aos
 escripts, Serão entregues exercícios que ja utilizam de determinadas funções do próprio Defold.
-\subsubsection*{Avaliação}
+\sphinxSetupCaptionForVerbatim{Exemplo de laço for}
+\def\sphinxLiteralBlockLabel{\label{\detokenize{modelo_aula_04:id1}}}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{k+kr}{for}\PYG{+w}{ }\PYG{n+nv}{i}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{+w}{ }\PYG{k+kr}{do}
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{status}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}\PYG{n+nv}{i}\PYG{p}{)}
+\PYG{+w}{    }\PYG{k+kr}{end}
+\end{sphinxVerbatim}
+\sphinxSetupCaptionForVerbatim{Exemplo de laço while}
+\def\sphinxLiteralBlockLabel{\label{\detokenize{modelo_aula_04:id2}}}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{k+kd}{local}\PYG{+w}{ }\PYG{n+nv}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}
 
-\sphinxAtStartPar
-Execução dos exercícios em sala de aula.
+\PYG{+w}{    }\PYG{k+kr}{while}\PYG{+w}{ }\PYG{n+nv}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{+w}{ }\PYG{k+kr}{do}
+\PYG{+w}{        }\PYG{n+nb}{print}\PYG{p}{(}\PYG{n+nv}{i}\PYG{p}{)}
+\PYG{+w}{        }\PYG{n+nv}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nv}{i}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{1}
+\PYG{+w}{    }\PYG{k+kr}{end}
+\end{sphinxVerbatim}
+\sphinxSetupCaptionForVerbatim{Exemplo de função}
+\def\sphinxLiteralBlockLabel{\label{\detokenize{modelo_aula_04:id3}}}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{k+kr}{function}\PYG{+w}{ }\PYG{n+nf}{idade}\PYG{p}{(}\PYG{n+nv}{d}\PYG{p}{)}
+\PYG{+w}{        }\PYG{n+nb}{print}\PYG{p}{(}\PYG{n+nv}{d}\PYG{p}{)}
+\PYG{+w}{    }\PYG{k+kr}{end}
+\PYG{+w}{    }\PYG{n+nf}{idade}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{)}
+\end{sphinxVerbatim}
 
 \newpage
 \subsubsection*{Bibliografia}
@@ -750,8 +806,8 @@ Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Unive
 \sphinxstepscope
 
 
-\chapter{Introdução ao Scratch: Variáveis}
-\label{\detokenize{modelo_aula_05:introducao-ao-scratch-variaveis}}\label{\detokenize{modelo_aula_05::doc}}
+\chapter{Lua III \sphinxhyphen{} Tabelas}
+\label{\detokenize{modelo_aula_05:lua-iii-tabelas}}\label{\detokenize{modelo_aula_05::doc}}
 \sphinxAtStartPar
 \sphinxstylestrong{Tempo de Aula:} 1h30min
 \subsubsection*{Recursos Didáticos}
@@ -759,42 +815,57 @@ Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Unive
 \sphinxAtStartPar
 Projetor, quadro branco, computadores.
 \subsubsection*{Metodologia}
-
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
-Expositiva, aplicação de exercícios / solução de problemas.
+Expositiva.
+
+\item {} 
+\sphinxAtStartPar
+Exercícios Guiados em programação e operação da Engine.
+
+\item {} 
+\sphinxAtStartPar
+Desafio \sphinxhyphen{} Memória Muscular
+
+\end{itemize}
 \subsubsection*{Conteúdo Programático}
-
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
-Utilizar as estruturas básicas do Scratch para um desafio final utilizando variáveis
-para contar a quantidade de moedas recolhidas pelo gatinho.
+Navegação na plataforma.
+
+\item {} 
+\sphinxAtStartPar
+Aplicação do conceito de tabelas no Defold.
+
+\item {} 
+\sphinxAtStartPar
+Exercícios Dinãmicos.
+
+\end{itemize}
 \subsubsection*{Descrição}
 
 \sphinxAtStartPar
-Para esse desafio final, alguns elementos são necessários para o aluno conseguir entender
-a lógica do construct:
-1 \sphinxhyphen{} Condições (Bloco SE)
-2 \sphinxhyphen{} Comparar Variáveis
-Para tanto será feita uma revisão para posteriormente ser lançado o desafio.
+Utilizar os conceitos das aulas anteriores para aplicar no Defold
+com exemplos mais complexos.
 \subsubsection*{Avaliação}
 
 \sphinxAtStartPar
 Execução dos exercícios em sala de aula.
-\subsubsection*{Exercícios de Desafio}
+\sphinxSetupCaptionForVerbatim{Exemplo de tabelas}
+\def\sphinxLiteralBlockLabel{\label{\detokenize{modelo_aula_05:id1}}}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{c+c1}{\PYGZhy{}\PYGZhy{} Criando uma caixa vazia}
+\PYG{+w}{    }\PYG{n+nv}{meu\PYGZus{}bau}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}\PYGZcb{}}
 
-\sphinxAtStartPar
-\sphinxstylestrong{Desafio 1: Criar uma condição simples}
-Utilize o bloco SE para criar um programa onde, se uma variável atingir um valor específico,
-uma ação seja executada (exemplo: mudar a cor de um objeto ou mostrar uma mensagem).
-
-\sphinxAtStartPar
-\sphinxstylestrong{Desafio 2: Comparação de variáveis}
-Programe duas variáveis para serem comparadas.
-Quando as variáveis forem iguais, execute uma ação (exemplo: desbloquear uma fase ou ativar um efeito).
-
-\sphinxAtStartPar
-\sphinxstylestrong{Desafio 3: Combinação de condições e variáveis}
-Crie um cenário onde múltiplas condições devem ser atendidas para uma ação ocorrer.
-Por exemplo, se variável A for maior que 10 \sphinxstylestrong{e} variável B for igual a 5, então o personagem ganha um bônus.
+\PYG{+w}{    }\PYG{c+c1}{\PYGZhy{}\PYGZhy{} Colocando coisas dentro}
+\PYG{+w}{    }\PYG{n+nv}{meu\PYGZus{}bau}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Bola}\PYG{l+s+s2}{\PYGZdq{}}
+\PYG{+w}{    }\PYG{n+nv}{meu\PYGZus{}bau}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Carrinho}\PYG{l+s+s2}{\PYGZdq{}}
+\PYG{+w}{    }\PYG{n+nv}{meu\PYGZus{}bau}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Boneca}\PYG{l+s+s2}{\PYGZdq{}}
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{n+nv}{meu\PYGZus{}bau}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{])}\PYG{+w}{  }\PYG{c+c1}{\PYGZhy{}\PYGZhy{} Vai mostrar: Bola}
+\PYG{+w}{    }\PYG{n+nb}{print}\PYG{p}{(}\PYG{n+nv}{meu\PYGZus{}bau}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{])}\PYG{+w}{  }\PYG{c+c1}{\PYGZhy{}\PYGZhy{} Vai mostrar: Boneca}
+\end{sphinxVerbatim}
 \subsubsection*{Bibliografia}
 
 \sphinxAtStartPar
