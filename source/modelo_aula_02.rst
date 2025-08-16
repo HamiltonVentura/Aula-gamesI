@@ -45,6 +45,7 @@ No decorrer dessa aula será exposto conceitos e um projeto como estudo de caso,
 e alterar e adicionar funcionalidades ao projeto. A ideia dessa aula é deixar as crianças a vontade para 
 alterar e brincar com a ferramenta. Deve-se apresentar a documentação aos alunos de uma maneira bem dinâmica,
 exemplos de códigos na linguagem lua, podendo-se alternar os exemplos de código na Engine Defold e VSCODE.
+Nessa aula também criaremos o começo de um mapa, importar o personagem e criar objetos de colisões;
 
 .. code-block:: lua
     :caption: Exemplo exibição na tela com a função io.write.
@@ -100,8 +101,7 @@ Data: ___/___/___
 **Faça os exercícios:**
 
 - 1 – Utilize os sprites de personagem, para importar para o Defold com as devidas configurações, anime o personagem, nos modos andando e parado.
-- 2 – Anime e configure o personagem com os comandos para direita e para a esquerda.
-- 3 – Crie um personagem animado com libresprite salve os arquivos e importe para o seu projeto.
+- 2 – Crie um personagem animado com libresprite salve os arquivos e importe para o seu projeto.
 
 
 .. raw:: latex

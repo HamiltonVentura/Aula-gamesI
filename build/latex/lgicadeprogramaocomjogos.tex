@@ -66,7 +66,7 @@
 
 
 \title{Lógica de programação com Jogos}
-\date{15 ago. 2025}
+\date{16 ago. 2025}
 \release{1.0}
 \author{Hamilton V.\@{} Rodrigues}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -927,8 +927,10 @@ Criação de zonas de colizão
 
 \sphinxAtStartPar
 Iniciar um projeto do zero, buscando através da repetição fazer o aluno decorar os
-caminhos, criar personagem simples no início, e animá\sphinxhyphen{}lo a partir dos frames. Criar
-Interface Menus.
+caminhos, criar personagem simples no início, e animá\sphinxhyphen{}lo a partir dos frames.
+É importante entender as zonas de colisão, pois com base nelas o personagem irá interagir
+com o ambiente, o chão ou outros elementos.
+Nessa aula é importante frisar as animações, e configurações.
 \subsubsection*{Avaliação}
 
 \sphinxAtStartPar
@@ -1032,221 +1034,6 @@ Disponível em: \sphinxurl{https://penzilla.itch.io/basic-gui-bundle?download}. 
 
 \sphinxAtStartPar
 KENNEY. Assets. Disponível em: \sphinxurl{https://kenney.nl/assets}. Acesso em: 15 ago. 2025.
-
-\sphinxstepscope
-
-
-\chapter{Construct: Animação de Personagem II}
-\label{\detokenize{modelo_aula_08:construct-animacao-de-personagem-ii}}\label{\detokenize{modelo_aula_08::doc}}
-\sphinxAtStartPar
-\sphinxstylestrong{Tempo de Aula:} 1h30min
-\subsubsection*{Recursos Didáticos}
-
-\sphinxAtStartPar
-Projetor, quadro branco, computadores.
-\subsubsection*{Metodologia}
-
-\sphinxAtStartPar
-Expositiva, aplicação de exercícios / solução de problemas.
-\subsubsection*{Conteúdo Programático}
-
-\sphinxAtStartPar
-O aluno aprenderá o que é uma folha de Eventos e como utilizar as condições para
-animar o personagem. Especificamente animar evento de movimentos do
-personagem inserir entradas no layout como teclado ou mouse.
-Espelhamento do Personagem.
-\subsubsection*{Descrição}
-
-\sphinxAtStartPar
-O aluno deverá criar personagem, o chão do cenário e criar animações do
-personagem, correndo, parado e golpes.
-Cada Lista da animação deverá ser ativada caso alguma condição seja satisfeita.Por
-exemplo: Seta para direita foi apertado, ou barra de espaço.
-Nesse primeiro contato com eventos, ele deverá entender que se trata das mesmas
-condições que existem no Scratch, basta lembrar os alunos.
-\subsubsection*{Avaliação}
-
-\sphinxAtStartPar
-Execução dos exercícios em sala de aula.
-\subsubsection*{Exercícios de Desafio}
-
-\sphinxAtStartPar
-\sphinxstylestrong{Desafio 1: Animação com múltiplos estados}
-Crie animações distintas para o personagem: parado, correndo e atacando.
-Configure a folha de Eventos para que o personagem alterne entre essas animações conforme as teclas pressionadas (exemplo: seta para direita para correr, barra de espaço para ataque).
-
-\sphinxAtStartPar
-\sphinxstylestrong{Desafio 2: Controle por teclado e mouse}
-Implemente entradas para que o personagem possa ser controlado tanto pelo teclado (movimentos e ataques) quanto pelo mouse (por exemplo, clique para atacar).
-Certifique\sphinxhyphen{}se de que as animações corretas sejam ativadas para cada ação.
-
-\sphinxAtStartPar
-\sphinxstylestrong{Desafio 3: Espelhamento do personagem}
-Configure o personagem para que, ao andar para a esquerda, a imagem seja espelhada horizontalmente, dando a sensação de que ele está virado para o lado correto.
-Teste a transição entre espelhamento e animações sem causar interrupções visuais.
-\subsubsection*{Bibliografia}
-
-\sphinxAtStartPar
-SCIRRA, L. (2022). Manual Construct.
-\sphinxurl{https://www.construct.net/en/make-games/manuals/construct-3}
-
-\sphinxAtStartPar
-Rabin, S. (n.d.). Introdução ao desenvolvimento de games (Cengage Le, Vol. 1).
-\sphinxurl{https://www.amazon.com.br}/Introdução\sphinxhyphen{}desenvolvimento\sphinxhyphen{}games\sphinxhyphen{}Entendendo\sphinxhyphen{}universo/dp/852211143X
-
-\sphinxAtStartPar
-Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Universo d).
-\sphinxurl{https://br.99ebooks.net/download/treinamento-em-logica-de-programacao/}
-
-\sphinxstepscope
-
-
-\chapter{Construct: Tile Maps}
-\label{\detokenize{modelo_aula_09:construct-tile-maps}}\label{\detokenize{modelo_aula_09::doc}}
-\sphinxAtStartPar
-\sphinxstylestrong{Tempo de Aula:} 1h30min
-\subsubsection*{Recursos Didáticos}
-
-\sphinxAtStartPar
-Projetor, quadro branco, computadores.
-\subsubsection*{Metodologia}
-
-\sphinxAtStartPar
-Expositiva, aplicação de exercícios / solução de problemas.
-\subsubsection*{Conteúdo Programático}
-
-\sphinxAtStartPar
-Criar cenários baseados em tilemaps prontos.(Fornecidos pela equipe)
-Trabalhar mudança de cenário.
-\subsubsection*{Descrição}
-
-\sphinxAtStartPar
-Ensinar ao aluno a utilizar o mosaico para criação de cenários, produzindo pelo
-menos dois níveis em um jogo no estilo plataforma, um portal deve levar o aluno a outro
-nível.
-\subsubsection*{Avaliação}
-
-\sphinxAtStartPar
-Execução dos exercícios em sala de aula.
-Modalidade: presencial.
-\subsubsection*{Exercícios}
-
-\sphinxAtStartPar
-\sphinxstylestrong{Exercício 1: Criar um cenário básico com tilemap}
-Utilize os tilemaps fornecidos para montar um cenário inicial para seu jogo.
-Organize os tiles para formar plataformas e obstáculos básicos.
-
-\sphinxAtStartPar
-\sphinxstylestrong{Exercício 2: Criar múltiplos níveis}
-Com base no cenário criado, construa pelo menos dois níveis diferentes usando tilemaps.
-Cada nível deve ter características distintas, como layout ou dificuldade.
-
-\sphinxAtStartPar
-\sphinxstylestrong{Exercício 3: Implementar troca de cenário via portal}
-Adicione um portal no primeiro nível que, ao ser ativado pelo personagem, leva o jogador para o segundo nível.
-Configure os eventos para que a troca de cenário ocorra de forma suave e funcional.
-\subsubsection*{Bibliografia}
-
-\sphinxAtStartPar
-SCIRRA, L. (2022). Manual Construct.
-\sphinxurl{https://www.construct.net/en/make-games/manuals/construct-3}
-
-\sphinxAtStartPar
-Rabin, S. (n.d.). Introdução ao desenvolvimento de games (Cengage Le, Vol. 1).
-\sphinxurl{https://www.amazon.com.br}/Introdução\sphinxhyphen{}desenvolvimento\sphinxhyphen{}games\sphinxhyphen{}Entendendo\sphinxhyphen{}universo/dp/852211143X
-
-\sphinxAtStartPar
-Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Universo d).
-\sphinxurl{https://br.99ebooks.net/download/treinamento-em-logica-de-programacao/}
-
-\sphinxstepscope
-
-
-\chapter{Construct: Elementos de jogo \sphinxhyphen{} Barra de vida, Moedas (status)}
-\label{\detokenize{modelo_aula_10:construct-elementos-de-jogo-barra-de-vida-moedas-status}}\label{\detokenize{modelo_aula_10::doc}}
-\sphinxAtStartPar
-\sphinxstylestrong{Tempo de Aula:} 1h30min
-\subsubsection*{Recursos Didáticos}
-
-\sphinxAtStartPar
-Projetor, quadro branco, computadores.
-\subsubsection*{Metodologia}
-
-\sphinxAtStartPar
-Expositiva, aplicação de exercícios / solução de problemas.
-\subsubsection*{Conteúdo Programático}
-
-\sphinxAtStartPar
-Criar barra de vida manualmente
-Criar um indicador de moedas.
-Conceito de Camadas
-\subsubsection*{Descrição}
-
-\sphinxAtStartPar
-Ensinar o aluno a Construir uma barra de vida, que demonstre a quantidade de vida
-que o personagem possui, lembrando que é necessário criar variáveis globais que
-armazenam a quantidade de vida.
-Ativar a camada Paralax, 0,0 para que o personagem ao se movimentar seja seguido pela
-quantidade de vida.
-\subsubsection*{Avaliação}
-
-\sphinxAtStartPar
-Execução dos exercícios em sala de aula.
-\subsubsection*{Bibliografia}
-
-\sphinxAtStartPar
-SCIRRA, L. (2022). Manual Construct.
-\sphinxurl{https://www.construct.net/en/make-games/manuals/construct-3}
-
-\sphinxAtStartPar
-Rabin, S. (n.d.). Introdução ao desenvolvimento de games (Cengage Le, Vol. 1).
-\sphinxurl{https://www.amazon.com.br}/Introdução\sphinxhyphen{}desenvolvimento\sphinxhyphen{}games\sphinxhyphen{}Entendendo\sphinxhyphen{}universo/dp/852211143X
-
-\sphinxAtStartPar
-Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Universo d).
-\sphinxurl{https://br.99ebooks.net/download/treinamento-em-logica-de-programacao/}
-
-\sphinxstepscope
-
-
-\chapter{Construct: Aula de Revisão}
-\label{\detokenize{modelo_aula_11:construct-aula-de-revisao}}\label{\detokenize{modelo_aula_11::doc}}
-\sphinxAtStartPar
-\sphinxstylestrong{Tempo de Aula:} 1h30min
-\subsubsection*{Recursos Didáticos}
-
-\sphinxAtStartPar
-Projetor, quadro branco, computadores.
-\subsubsection*{Metodologia}
-
-\sphinxAtStartPar
-Expositiva, aplicação de exercícios / solução de problemas.
-\subsubsection*{Conteúdo Programático}
-
-\sphinxAtStartPar
-REFORÇAR CONTEÚDOS DAS AULAS PASSADAS.
-\subsubsection*{Descrição}
-
-\sphinxAtStartPar
-Reforço dos conteúdos passados, visando levar o aluno a relembrar os principais
-conceitos das aulas.
-\subsubsection*{Avaliação}
-
-\sphinxAtStartPar
-Execução dos exercícios em sala de aula.
-\subsubsection*{Bibliografia}
-
-\sphinxAtStartPar
-SCIRRA, L. (2022). Manual Construct.
-\sphinxurl{https://www.construct.net/en/make-games/manuals/construct-3}
-
-\sphinxAtStartPar
-Rabin, S. (n.d.). Introdução ao desenvolvimento de games (Cengage Le, Vol. 1).
-\sphinxurl{https://www.amazon.com.br}/Introdução\sphinxhyphen{}desenvolvimento\sphinxhyphen{}games\sphinxhyphen{}Entendendo\sphinxhyphen{}universo/dp/852211143X
-
-\sphinxAtStartPar
-Rita, S. (2017). Treinamento em Lógica de Programação (R. Sandra (ed.); Universo d).
-\sphinxurl{https://br.99ebooks.net/download/treinamento-em-logica-de-programacao/}
 
 
 

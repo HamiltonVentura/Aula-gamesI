@@ -65,7 +65,3 @@ ativar animações em determinadas situações, trabalhando com eventos.
    modelo_aula_05
    modelo_aula_06
    modelo_aula_07
-   modelo_aula_08
-   modelo_aula_09
-   modelo_aula_10
-   modelo_aula_11

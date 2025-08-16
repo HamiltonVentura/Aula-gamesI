@@ -23,8 +23,10 @@ Projetor, quadro branco, computadores.
 .. rubric:: Descrição
 
 Iniciar um projeto do zero, buscando através da repetição fazer o aluno decorar os
-caminhos, criar personagem simples no início, e animá-lo a partir dos frames. Criar 
-Interface Menus.
+caminhos, criar personagem simples no início, e animá-lo a partir dos frames.
+É importante entender as zonas de colisão, pois com base nelas o personagem irá interagir
+com o ambiente, o chão ou outros elementos.
+Nessa aula é importante frisar as animações, e configurações.
 
 .. rubric:: Avaliação
 
@@ -47,7 +49,7 @@ Crie um pequeno projeto onde o personagem gira ou se move com base nos pontos â
 .. raw:: latex
 
     \newpage
-
+    
 
 .. rubric:: Bibliografia
 
